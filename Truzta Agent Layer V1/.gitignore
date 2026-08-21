@@ -1,0 +1,12 @@
+node_modules/
+frontend/dist/
+backend/.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+data/client-memory/*.yaml
+data/client-memory/*.controls.json
+!data/client-memory/example.yaml
+data/assessments/
+*.log
+.env

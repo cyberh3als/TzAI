@@ -1,0 +1,51 @@
+[
+  {
+    "question_id": "gq-0000",
+    "segments": [
+      "Yes, our IT manager handles it."
+    ],
+    "answered_at": "2026-08-21T11:48:41.153068Z"
+  },
+  {
+    "question_id": "gq-0001",
+    "segments": [
+      "[skipped]"
+    ],
+    "answered_at": "2026-08-21T11:48:41.899381Z"
+  },
+  {
+    "question_id": "gq-0002",
+    "segments": [
+      "[skipped]"
+    ],
+    "answered_at": "2026-08-21T11:48:42.599019Z"
+  },
+  {
+    "question_id": "gq-0003",
+    "segments": [
+      "[skipped]"
+    ],
+    "answered_at": "2026-08-21T11:48:43.339721Z"
+  },
+  {
+    "question_id": "gq-0004",
+    "segments": [
+      "[skipped]"
+    ],
+    "answered_at": "2026-08-21T11:48:44.068514Z"
+  },
+  {
+    "question_id": "gq-0005",
+    "segments": [
+      "[skipped]"
+    ],
+    "answered_at": "2026-08-21T11:48:44.773177Z"
+  },
+  {
+    "question_id": "gq-0006",
+    "segments": [
+      "Yes we do that."
+    ],
+    "answered_at": "2026-08-21T11:48:45.483038Z"
+  }
+]

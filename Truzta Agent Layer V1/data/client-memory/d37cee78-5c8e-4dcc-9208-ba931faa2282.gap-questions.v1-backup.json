@@ -1,0 +1,487 @@
+[
+  {
+    "question_id": "gq-0000",
+    "text": "Is there a designated person or role responsible for information security at your organisation (e.g. a security officer, IT manager, or outsourced provider)?",
+    "control_ids": [],
+    "domain": null,
+    "is_universal": true,
+    "order": 0
+  },
+  {
+    "question_id": "gq-0001",
+    "text": "Have you experienced any security incidents, data breaches, or significant IT outages in the past 12 months? If so, briefly describe what happened and how it was handled.",
+    "control_ids": [],
+    "domain": null,
+    "is_universal": true,
+    "order": 1
+  },
+  {
+    "question_id": "gq-0002",
+    "text": "Do employees receive any security awareness training, formal or informal, and how often?",
+    "control_ids": [],
+    "domain": null,
+    "is_universal": true,
+    "order": 2
+  },
+  {
+    "question_id": "gq-0003",
+    "text": "Do you have a written, even informal, incident response plan for handling a security incident if one occurred?",
+    "control_ids": [],
+    "domain": null,
+    "is_universal": true,
+    "order": 3
+  },
+  {
+    "question_id": "gq-0004",
+    "text": "How do you vet and manage third-party vendors or contractors who can access your systems or data?",
+    "control_ids": [],
+    "domain": null,
+    "is_universal": true,
+    "order": 4
+  },
+  {
+    "question_id": "gq-0005",
+    "text": "Is there a written information security policy, even brief, that employees are aware of?",
+    "control_ids": [],
+    "domain": null,
+    "is_universal": true,
+    "order": 5
+  },
+  {
+    "question_id": "gq-0006",
+    "text": "How do you currently facilitate or implement governance controls for security, compliance and resilience across the organization?",
+    "control_ids": [
+      "GOV-01"
+    ],
+    "domain": "Security, Compliance & Resilience Governance",
+    "is_universal": false,
+    "order": 6
+  },
+  {
+    "question_id": "gq-0007",
+    "text": "Do you have a steering committee or advisory board with cybersecurity, data protection and business executives that meets regularly to align security and compliance with business needs? What oversight reporting or recommendations does that group provide to executive decision-makers?",
+    "control_ids": [
+      "GOV-01.1",
+      "GOV-01.2"
+    ],
+    "domain": "Security, Compliance & Resilience Governance",
+    "is_universal": false,
+    "order": 7
+  },
+  {
+    "question_id": "gq-0008",
+    "text": "How do you establish, maintain and communicate your security, compliance and resilience policies, standards and procedures, and how do you review them to ensure they stay suitable and effective?",
+    "control_ids": [
+      "GOV-02",
+      "GOV-03"
+    ],
+    "domain": "Security, Compliance & Resilience Governance",
+    "is_universal": false,
+    "order": 8
+  },
+  {
+    "question_id": "gq-0009",
+    "text": "Who has been assigned to centrally manage and coordinate your security, compliance and resilience program, and what authority and resources do they have?",
+    "control_ids": [
+      "GOV-04"
+    ],
+    "domain": "Security, Compliance & Resilience Governance",
+    "is_universal": false,
+    "order": 9
+  },
+  {
+    "question_id": "gq-0010",
+    "text": "What performance measures or metrics do you report and monitor for the security, compliance and resilience program?",
+    "control_ids": [
+      "GOV-05"
+    ],
+    "domain": "Security, Compliance & Resilience Governance",
+    "is_universal": false,
+    "order": 10
+  },
+  {
+    "question_id": "gq-0011",
+    "text": "How do you define and document the context of your business model and your organization’s mission?",
+    "control_ids": [
+      "GOV-08"
+    ],
+    "domain": "Security, Compliance & Resilience Governance",
+    "is_universal": false,
+    "order": 11
+  },
+  {
+    "question_id": "gq-0012",
+    "text": "How do you determine the control objectives used as the basis for selecting and managing your internal security, compliance and resilience controls?",
+    "control_ids": [
+      "GOV-09"
+    ],
+    "domain": "Security, Compliance & Resilience Governance",
+    "is_universal": false,
+    "order": 12
+  },
+  {
+    "question_id": "gq-0013",
+    "text": "How do you ensure data and process owners continuously monitor the technology assets, applications, services and data under their control for threats and risks, and verify that controls are working as intended?",
+    "control_ids": [
+      "GOV-15.5"
+    ],
+    "domain": "Security, Compliance & Resilience Governance",
+    "is_universal": false,
+    "order": 13
+  },
+  {
+    "question_id": "gq-0014",
+    "text": "Can you describe how you identify and involve the right people—both internal and external—who are responsible for your critical technology assets, applications, services, and data, and how they stay involved in managing those assets securely?",
+    "control_ids": [
+      "AST-01.2"
+    ],
+    "domain": "Asset Management",
+    "is_universal": false,
+    "order": 14
+  },
+  {
+    "question_id": "gq-0015",
+    "text": "How do you determine which security, compliance, and resilience controls apply to your technology assets, applications, services, and personnel—including third parties—and how is that categorization documented?",
+    "control_ids": [
+      "AST-04.1"
+    ],
+    "domain": "Asset Management",
+    "is_universal": false,
+    "order": 15
+  },
+  {
+    "question_id": "gq-0016",
+    "text": "Do you have a formal change management process for handling changes to your IT systems and applications? If so, can you walk me through how a change is requested, reviewed, approved, implemented, and tracked?",
+    "control_ids": [
+      "CHG-01"
+    ],
+    "domain": "Change Management",
+    "is_universal": false,
+    "order": 16
+  },
+  {
+    "question_id": "gq-0017",
+    "text": "Since you run workloads on AWS, how do you document and maintain a formal Customer Responsibility Matrix that clarifies which cloud security, compliance, and resilience controls AWS handles versus which ones your team is accountable for?",
+    "control_ids": [
+      "CLD-06.1"
+    ],
+    "domain": "Cloud Security",
+    "is_universal": false,
+    "order": 17
+  },
+  {
+    "question_id": "gq-0018",
+    "text": "How do you identify and keep track of the statutory, regulatory, and contractual requirements that your security and compliance controls need to satisfy?",
+    "control_ids": [
+      "CPL-01"
+    ],
+    "domain": "Compliance",
+    "is_universal": false,
+    "order": 18
+  },
+  {
+    "question_id": "gq-0019",
+    "text": "How do you document and review instances of non-compliance, and what process do you follow to develop appropriate risk mitigation actions?",
+    "control_ids": [
+      "CPL-01.1"
+    ],
+    "domain": "Compliance",
+    "is_universal": false,
+    "order": 19
+  },
+  {
+    "question_id": "gq-0020",
+    "text": "How do you document and validate the scope of controls that you have determined meet your statutory, regulatory, and contractual compliance obligations?",
+    "control_ids": [
+      "CPL-01.2"
+    ],
+    "domain": "Compliance",
+    "is_universal": false,
+    "order": 20
+  },
+  {
+    "question_id": "gq-0021",
+    "text": "Who or what function provides oversight of your security, compliance, and resilience controls, and how does that function report to executive leadership?",
+    "control_ids": [
+      "CPL-02"
+    ],
+    "domain": "Compliance",
+    "is_universal": false,
+    "order": 21
+  },
+  {
+    "question_id": "gq-0022",
+    "text": "Do you have an internal audit function that can give senior management insights into the appropriateness of your technology and information governance processes? If so, how does it operate?",
+    "control_ids": [
+      "CPL-02.1"
+    ],
+    "domain": "Compliance",
+    "is_universal": false,
+    "order": 22
+  },
+  {
+    "question_id": "gq-0023",
+    "text": "How do you confirm that your technology assets, applications, services, and data conform to your security, compliance, and resilience policies and standards?",
+    "control_ids": [
+      "CPL-03"
+    ],
+    "domain": "Compliance",
+    "is_universal": false,
+    "order": 23
+  },
+  {
+    "question_id": "gq-0024",
+    "text": "Can you describe how your organization implements its personnel security controls overall?",
+    "control_ids": [
+      "HRS-01"
+    ],
+    "domain": "Human Resources Security",
+    "is_universal": false,
+    "order": 24
+  },
+  {
+    "question_id": "gq-0025",
+    "text": "How do you assign risk levels to different positions, and what screening criteria do you apply before authorizing access for new hires or contractors?",
+    "control_ids": [
+      "HRS-02",
+      "HRS-04"
+    ],
+    "domain": "Human Resources Security",
+    "is_universal": false,
+    "order": 25
+  },
+  {
+    "question_id": "gq-0026",
+    "text": "How do you define cybersecurity roles and responsibilities for all personnel, and how are those communicated to your employees and contractors?",
+    "control_ids": [
+      "HRS-03",
+      "HRS-03.1"
+    ],
+    "domain": "Human Resources Security",
+    "is_universal": false,
+    "order": 26
+  },
+  {
+    "question_id": "gq-0027",
+    "text": "How do you ensure that people in security-related roles have the necessary qualifications and skills?",
+    "control_ids": [
+      "HRS-03.2"
+    ],
+    "domain": "Human Resources Security",
+    "is_universal": false,
+    "order": 27
+  },
+  {
+    "question_id": "gq-0028",
+    "text": "What formal training do you provide to authorized users on proper handling of the data they can access, and how do you ensure they periodically review and formally acknowledge your security policies?",
+    "control_ids": [
+      "HRS-04.2",
+      "HRS-05.7"
+    ],
+    "domain": "Human Resources Security",
+    "is_universal": false,
+    "order": 28
+  },
+  {
+    "question_id": "gq-0029",
+    "text": "How do you enforce the expectation that all employees and contractors apply cybersecurity and data protection principles in their daily work?",
+    "control_ids": [
+      "HRS-05"
+    ],
+    "domain": "Human Resources Security",
+    "is_universal": false,
+    "order": 29
+  },
+  {
+    "question_id": "gq-0030",
+    "text": "What acceptable use rules do you have for technology, including restrictions on social media and sharing account information, and what consequences apply for violations?",
+    "control_ids": [
+      "HRS-05.1",
+      "HRS-05.2"
+    ],
+    "domain": "Human Resources Security",
+    "is_universal": false,
+    "order": 30
+  },
+  {
+    "question_id": "gq-0031",
+    "text": "How do you establish usage restrictions and implementation guidance for organizational technologies, especially critical technologies, based on their potential to cause damage if misused?",
+    "control_ids": [
+      "HRS-05.3",
+      "HRS-05.4"
+    ],
+    "domain": "Human Resources Security",
+    "is_universal": false,
+    "order": 31
+  },
+  {
+    "question_id": "gq-0032",
+    "text": "Given your hybrid work model and Google Workspace environment, how do you manage the risks of allowing mobile devices to access company resources?",
+    "control_ids": [
+      "HRS-05.5"
+    ],
+    "domain": "Human Resources Security",
+    "is_universal": false,
+    "order": 32
+  },
+  {
+    "question_id": "gq-0033",
+    "text": "How do you plan and allocate resources—like budget, personnel, and tools—for your security, compliance, and resilience initiatives? Is there a portfolio management approach you use to prioritize and manage these efforts?",
+    "control_ids": [
+      "PRM-01"
+    ],
+    "domain": "Project & Resource Management",
+    "is_universal": false,
+    "order": 33
+  },
+  {
+    "question_id": "gq-0034",
+    "text": "How do you handle capital planning and investment requests for your security, compliance, and resilience program? Specifically, how do you ensure the necessary resources are included in budgets, and how are any exceptions to those requirements documented?",
+    "control_ids": [
+      "PRM-02"
+    ],
+    "domain": "Project & Resource Management",
+    "is_universal": false,
+    "order": 34
+  },
+  {
+    "question_id": "gq-0035",
+    "text": "Can you walk me through how you currently align your risk management activities—strategic, operational, and tactical—with your overall business risk management and recognized cybersecurity risk practices?",
+    "control_ids": [
+      "RSK-01"
+    ],
+    "domain": "Risk Management",
+    "is_universal": false,
+    "order": 35
+  },
+  {
+    "question_id": "gq-0036",
+    "text": "How do you identify and document the key assumptions, constraints, risk tolerance, and priorities or trade-offs you use when assessing and responding to risk?",
+    "control_ids": [
+      "RSK-01.1"
+    ],
+    "domain": "Risk Management",
+    "is_universal": false,
+    "order": 36
+  },
+  {
+    "question_id": "gq-0037",
+    "text": "I understand you are using AWS and Google Workspace. How do you classify or categorize your technology assets, applications, services, and data, and where is that classification documented and approved by the owner?",
+    "control_ids": [
+      "RSK-02"
+    ],
+    "domain": "Risk Management",
+    "is_universal": false,
+    "order": 37
+  },
+  {
+    "question_id": "gq-0038",
+    "text": "How do you go about identifying and documenting both internal and external risks to the business?",
+    "control_ids": [
+      "RSK-03"
+    ],
+    "domain": "Risk Management",
+    "is_universal": false,
+    "order": 38
+  },
+  {
+    "question_id": "gq-0039",
+    "text": "Can you describe how and how often you assess risks, including the likelihood and potential impact of unauthorized access, use, disclosure, disruption, modification, or destruction of your systems and data?",
+    "control_ids": [
+      "RSK-04"
+    ],
+    "domain": "Risk Management",
+    "is_universal": false,
+    "order": 39
+  },
+  {
+    "question_id": "gq-0040",
+    "text": "Once you identify risks, how do you decide on actions to bring them down to a level you are comfortable with?",
+    "control_ids": [
+      "RSK-06"
+    ],
+    "domain": "Risk Management",
+    "is_universal": false,
+    "order": 40
+  },
+  {
+    "question_id": "gq-0041",
+    "text": "How do you verify that remediation actions from security assessments, audits, or incidents were actually carried out and resolved the findings?",
+    "control_ids": [
+      "RSK-06.1"
+    ],
+    "domain": "Risk Management",
+    "is_universal": false,
+    "order": 41
+  },
+  {
+    "question_id": "gq-0042",
+    "text": "How do you currently implement and maintain operational security controls across your organization, particularly given your hybrid work setup and use of cloud services like AWS and Google Workspace?",
+    "control_ids": [
+      "OPS-01"
+    ],
+    "domain": "Security Operations",
+    "is_universal": false,
+    "order": 42
+  },
+  {
+    "question_id": "gq-0043",
+    "text": "What documented standard operating procedures or runbooks do you have for recurring security and operational tasks—for example, managing access, deploying code, or responding to incidents—and how are they created and kept up-to-date?",
+    "control_ids": [
+      "OPS-01.1"
+    ],
+    "domain": "Security Operations",
+    "is_universal": false,
+    "order": 43
+  },
+  {
+    "question_id": "gq-0044",
+    "text": "How do you govern and manage your technology services, such as AWS and Google Workspace, using recognized IT service management or governance practices to ensure they adequately support your business functions and workforce?",
+    "control_ids": [
+      "OPS-03"
+    ],
+    "domain": "Security Operations",
+    "is_universal": false,
+    "order": 44
+  },
+  {
+    "question_id": "gq-0045",
+    "text": "How do you oversee and support the rollout of security awareness and training across the organization? Who is responsible for ensuring these programs are implemented?",
+    "control_ids": [
+      "SAT-01"
+    ],
+    "domain": "Security Awareness & Training",
+    "is_universal": false,
+    "order": 45
+  },
+  {
+    "question_id": "gq-0046",
+    "text": "Walk me through the security awareness training you provide to employees and contractors. How is it tailored to different roles and job functions?",
+    "control_ids": [
+      "SAT-02"
+    ],
+    "domain": "Security Awareness & Training",
+    "is_universal": false,
+    "order": 46
+  },
+  {
+    "question_id": "gq-0047",
+    "text": "Do you maintain a RASCI matrix or similar responsibility assignment that clarifies security, compliance, and resilience duties between your internal team and external service providers? If so, what does it cover and how is it kept up to date?",
+    "control_ids": [
+      "TPM-05.4"
+    ],
+    "domain": "Third-Party Management",
+    "is_universal": false,
+    "order": 47
+  },
+  {
+    "question_id": "gq-0048",
+    "text": "Can you walk me through how your team keeps up with current vulnerabilities and attacker tactics or techniques, and how that awareness translates into preventive or compensating controls?",
+    "control_ids": [
+      "THR-03"
+    ],
+    "domain": "Threat Management",
+    "is_universal": false,
+    "order": 48
+  }
+]

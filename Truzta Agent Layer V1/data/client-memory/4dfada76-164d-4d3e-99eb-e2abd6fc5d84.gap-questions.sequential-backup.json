@@ -1,0 +1,421 @@
+[
+  {
+    "question_id": "gq-0000",
+    "text": "Is there a designated person or role responsible for information security at your organisation (e.g. a security officer, IT manager, or outsourced provider)?",
+    "control_ids": [],
+    "domain": null,
+    "is_universal": true,
+    "order": 0
+  },
+  {
+    "question_id": "gq-0001",
+    "text": "Have you experienced any security incidents, data breaches, or significant IT outages in the past 12 months? If so, briefly describe what happened and how it was handled.",
+    "control_ids": [],
+    "domain": null,
+    "is_universal": true,
+    "order": 1
+  },
+  {
+    "question_id": "gq-0002",
+    "text": "Do employees receive any security awareness training, formal or informal, and how often?",
+    "control_ids": [],
+    "domain": null,
+    "is_universal": true,
+    "order": 2
+  },
+  {
+    "question_id": "gq-0003",
+    "text": "Do you have a written, even informal, incident response plan for handling a security incident if one occurred?",
+    "control_ids": [],
+    "domain": null,
+    "is_universal": true,
+    "order": 3
+  },
+  {
+    "question_id": "gq-0004",
+    "text": "How do you vet and manage third-party vendors or contractors who can access your systems or data?",
+    "control_ids": [],
+    "domain": null,
+    "is_universal": true,
+    "order": 4
+  },
+  {
+    "question_id": "gq-0005",
+    "text": "Is there a written information security policy, even brief, that employees are aware of?",
+    "control_ids": [],
+    "domain": null,
+    "is_universal": true,
+    "order": 5
+  },
+  {
+    "question_id": "gq-0006",
+    "text": "Do you have a written information security policy that is shared with all employees and reviewed on a set schedule (at least annually)?",
+    "control_ids": [
+      "GOV-02"
+    ],
+    "domain": "Security, Compliance & Resilience Governance",
+    "is_universal": false,
+    "order": 6
+  },
+  {
+    "question_id": "gq-0007",
+    "text": "Do you have a written business continuity and disaster recovery plan (or playbook) that explains how your critical systems and services will keep operating during an outage or disaster?",
+    "control_ids": [
+      "BCD-01"
+    ],
+    "domain": "Business Continuity & Disaster Recovery",
+    "is_universal": false,
+    "order": 7
+  },
+  {
+    "question_id": "gq-0008",
+    "text": "Do you have a written document that lists the security and compliance controls that apply to your company, based on Malaysian data protection laws and any customer or partner contracts?",
+    "control_ids": [
+      "CPL-01.2"
+    ],
+    "domain": "Compliance",
+    "is_universal": false,
+    "order": 8
+  },
+  {
+    "question_id": "gq-0009",
+    "text": "Do you maintain an evidence pack or repository where you store proof that these controls are working (for example, signed policies, training records, audit logs, or customer-facing security summaries)?",
+    "control_ids": [
+      "CPL-01.3"
+    ],
+    "domain": "Compliance",
+    "is_universal": false,
+    "order": 9
+  },
+  {
+    "question_id": "gq-0010",
+    "text": "Is there a named person or role accountable for security and compliance who reports to executive leadership (such as the owners or directors)?",
+    "control_ids": [
+      "CPL-02"
+    ],
+    "domain": "Compliance",
+    "is_universal": false,
+    "order": 10
+  },
+  {
+    "question_id": "gq-0011",
+    "text": "Do you perform a periodic internal audit or review to check whether your day-to-day security practices match your documented policies and compliance requirements? If yes, how often?",
+    "control_ids": [
+      "CPL-02.2"
+    ],
+    "domain": "Compliance",
+    "is_universal": false,
+    "order": 11
+  },
+  {
+    "question_id": "gq-0012",
+    "text": "Do you have a written encryption policy or standard that specifies approved encryption methods, such as AES or TLS, and requires using trusted cryptographic technologies rather than custom-built encryption?",
+    "control_ids": [
+      "CRY-01"
+    ],
+    "domain": "Cryptographic Protections",
+    "is_universal": false,
+    "order": 12
+  },
+  {
+    "question_id": "gq-0013",
+    "text": "Do you have a written data transfer policy that restricts sending sensitive or regulated data to countries outside Malaysia, including to international organisations?",
+    "control_ids": [
+      "DCH-25"
+    ],
+    "domain": "Data Classification & Handling",
+    "is_universal": false,
+    "order": 13
+  },
+  {
+    "question_id": "gq-0014",
+    "text": "Do you have a written policy or job screening checklist that assigns a risk level to each position (e.g., high/medium/low) and outlines background checks or reference checks required before hiring?",
+    "control_ids": [
+      "HRS-02"
+    ],
+    "domain": "Human Resources Security",
+    "is_universal": false,
+    "order": 14
+  },
+  {
+    "question_id": "gq-0015",
+    "text": "Do you have documented cybersecurity roles and responsibilities for all personnel, such as a roles and responsibilities matrix or job descriptions that include security duties?",
+    "control_ids": [
+      "HRS-03"
+    ],
+    "domain": "Human Resources Security",
+    "is_universal": false,
+    "order": 15
+  },
+  {
+    "question_id": "gq-0016",
+    "text": "You mentioned you use Okta — do you have role-based access set up in Okta, with users assigned to groups based on their job role, so that access to AWS, Microsoft 365, and other systems is limited to what each role needs?",
+    "control_ids": [
+      "IAC-08"
+    ],
+    "domain": "Identification & Authentication",
+    "is_universal": false,
+    "order": 16
+  },
+  {
+    "question_id": "gq-0017",
+    "text": "Do you have a written data breach response plan that includes notifying affected individuals and relevant regulators when sensitive or personal data is exposed?",
+    "control_ids": [
+      "IRO-04.1"
+    ],
+    "domain": "Incident Response",
+    "is_universal": false,
+    "order": 17
+  },
+  {
+    "question_id": "gq-0018",
+    "text": "You mentioned you use Google SecOps for logging — do you also use it (or another ticketing system) to maintain an incident log and report status updates to internal stakeholders until resolution?",
+    "control_ids": [
+      "IRO-09"
+    ],
+    "domain": "Incident Response",
+    "is_universal": false,
+    "order": 18
+  },
+  {
+    "question_id": "gq-0019",
+    "text": "Do you have a documented incident notification procedure that specifies timelines for notifying internal stakeholders, affected clients/third parties, and regulatory authorities, including specific deadlines for incidents involving sensitive or personal data?",
+    "control_ids": [
+      "IRO-10",
+      "IRO-10.2"
+    ],
+    "domain": "Incident Response",
+    "is_universal": false,
+    "order": 19
+  },
+  {
+    "question_id": "gq-0020",
+    "text": "Does the organization facilitate the implementation and operation of data protection controls throughout the data lifecycle to ensure all forms of Personal Data (PD) are processed lawfully, fairly and transparently?",
+    "control_ids": [
+      "PRI-01"
+    ],
+    "domain": "Data Privacy",
+    "is_universal": false,
+    "order": 20
+  },
+  {
+    "question_id": "gq-0021",
+    "text": "Does the organization appoint a Data Protection Officer (DPO):\n (1) Based on professional qualifications; and\n (2) To be involved in all issues related to how Personal Data (PD) is collected, received, processed, stored, transmitted, shared, updated and/or disposed?",
+    "control_ids": [
+      "PRI-01.4"
+    ],
+    "domain": "Data Privacy",
+    "is_universal": false,
+    "order": 21
+  },
+  {
+    "question_id": "gq-0022",
+    "text": "Does the organization implement and manage Binding Corporate Rules (BCR) (e.g., data sharing agreement) to legally-bind all parties engaged in a joint economic activity that contractually states enforceable rights on data subjects with regard to the processing of their personal data?",
+    "control_ids": [
+      "PRI-01.5"
+    ],
+    "domain": "Data Privacy",
+    "is_universal": false,
+    "order": 22
+  },
+  {
+    "question_id": "gq-0023",
+    "text": "Does the organization ensure Personal Data (PD) is protected by logical and physical security safeguards that are sufficient and appropriately scoped to protect the confidentiality and integrity of the PD?",
+    "control_ids": [
+      "PRI-01.6"
+    ],
+    "domain": "Data Privacy",
+    "is_universal": false,
+    "order": 23
+  },
+  {
+    "question_id": "gq-0024",
+    "text": "Does the organization:\n(1) Make data privacy notice(s) available to individuals upon first interacting with an organization and subsequently as necessary; \n(2) Ensure that data privacy notices are clear and easy-to-understand, expressing relevant information about how Personal Data (PD) is collected, received, processed, stored, transmitted, shared, updated and/or disposed;\n(3) Contain all necessary notice-related criteria required by applicable statutory, regulatory and contractual obligations;\n(4) Define the scope of PD processing activities, including the geographic locations and third-party recipients that process the PD within the scope of the data privacy notice;\n(5) Periodically, review and update the content of the privacy notice, as necessary; and\n(6) Retain prior versions of the privacy notice, in accordance with data retention requirements?",
+    "control_ids": [
+      "PRI-02"
+    ],
+    "domain": "Data Privacy",
+    "is_universal": false,
+    "order": 24
+  },
+  {
+    "question_id": "gq-0025",
+    "text": "Does the organization ensure data privacy notices identify the purpose(s) for which Personal Data (PD) is collected, received, processed, stored, transmitted and/or shared?",
+    "control_ids": [
+      "PRI-02.1"
+    ],
+    "domain": "Data Privacy",
+    "is_universal": false,
+    "order": 25
+  },
+  {
+    "question_id": "gq-0026",
+    "text": "Does the organization enable data subjects to authorize the collection, receipt, processing, storage, transmission, sharing, updating and/or disposal of their Personal Data (PD), where the data subject is provided, prior to collection, with:\n(1) Plain language explaining the potential data privacy risks of the authorization;\n(2) A means to decline the authorization; and\n(3) Necessary choice and consent-related criteria required by applicable statutory, regulatory and contractual obligations?",
+    "control_ids": [
+      "PRI-03"
+    ],
+    "domain": "Data Privacy",
+    "is_universal": false,
+    "order": 26
+  },
+  {
+    "question_id": "gq-0027",
+    "text": "Does the organization allow data subjects to authorize another person or entity (e.g., authorized agent, proxy, etc.), acting on the data subject's behalf, to make Personal Data (PD) processing decisions?",
+    "control_ids": [
+      "PRI-03.6"
+    ],
+    "domain": "Data Privacy",
+    "is_universal": false,
+    "order": 27
+  },
+  {
+    "question_id": "gq-0028",
+    "text": "Does the organization govern the continued use of Personal Data (PD) as it is collected, received, processed, stored, transmitted, shared and/or updated until:\n (1) Disposal of PD occurs when there is no longer a legitimate business purpose;\n (2) Disposal of PD occurs when the data retention timeline for the use case is met; and/or\n (3) Continued use of PD is prohibited upon withdrawal of data subject consent?",
+    "control_ids": [
+      "PRI-03.9"
+    ],
+    "domain": "Data Privacy",
+    "is_universal": false,
+    "order": 28
+  },
+  {
+    "question_id": "gq-0029",
+    "text": "Does the organization notify data subjects of processing changes affecting their Personal Data (PD), including:\n (1) Erasure of PD;\n (2) Remediation of incorrect PD; and/or\n (3) Processing restrictions affecting their PD?",
+    "control_ids": [
+      "PRI-03.11"
+    ],
+    "domain": "Data Privacy",
+    "is_universal": false,
+    "order": 29
+  },
+  {
+    "question_id": "gq-0030",
+    "text": "Does the organization minimize the collection, processing and/or sharing of Personal Data (PD) to only what is adequate, relevant and limited to the purposes identified in the data privacy notice, including protections against collecting PD from minors without appropriate parental or legal guardian consent?",
+    "control_ids": [
+      "PRI-04"
+    ],
+    "domain": "Data Privacy",
+    "is_universal": false,
+    "order": 30
+  },
+  {
+    "question_id": "gq-0031",
+    "text": "Does the organization determine and document the legal authority that permits the organization to collect, receive, process, store, transmit, share, update and/or dispose Personal Data (PD), either generally or in support of a specific business process?",
+    "control_ids": [
+      "PRI-04.1"
+    ],
+    "domain": "Data Privacy",
+    "is_universal": false,
+    "order": 31
+  },
+  {
+    "question_id": "gq-0032",
+    "text": "Does the organization: \n(1) Retain Personal Data (PD), including metadata, for an organization-defined time period to fulfill the purpose(s) identified in the notice or as required by law;\n(2) Dispose of, destroys, erases, and/or anonymizes the PD, regardless of the method of storage; and\n(3) Use organization-defined techniques or methods to ensure secure deletion or destruction of PD (including originals, copies and archived records)?",
+    "control_ids": [
+      "PRI-05"
+    ],
+    "domain": "Data Privacy",
+    "is_universal": false,
+    "order": 32
+  },
+  {
+    "question_id": "gq-0033",
+    "text": "Does the organization ensure the accuracy and relevance of Personal Data (PD) throughout the information lifecycle by:\n (1) Keeping PD up-to-date; and \n (2) Remediating identified inaccuracies, as necessary?",
+    "control_ids": [
+      "PRI-05.2"
+    ],
+    "domain": "Data Privacy",
+    "is_universal": false,
+    "order": 33
+  },
+  {
+    "question_id": "gq-0034",
+    "text": "Does the organization define and implement data handling and protection requirements for specific categories of sensitive Personal Data (PD)?",
+    "control_ids": [
+      "PRI-05.7"
+    ],
+    "domain": "Data Privacy",
+    "is_universal": false,
+    "order": 34
+  },
+  {
+    "question_id": "gq-0035",
+    "text": "Does the organization provide authenticated data subjects the ability to:\n (1) Access their Personal Data (PD) that is being processed, stored and shared, except where the burden, risk or expense of providing access would be disproportionate to the benefit offered to the data subject through granting access;\n (2) Obtain answers on the specifics of how their PD is collected, received, processed, stored, transmitted, shared, updated and/or disposed; \n (3) Obtain the source(s) of their PD; \n (4) Obtain the categories of their PD being collected, received, processed, stored and shared; \n (5) Request correction to their PD due to inaccuracies;\n (6) Request erasure of their PD; and\n (7) Restrict the further collecting, receiving, processing, storing, transmitting, updated and/or sharing of their PD?",
+    "control_ids": [
+      "PRI-06"
+    ],
+    "domain": "Data Privacy",
+    "is_universal": false,
+    "order": 35
+  },
+  {
+    "question_id": "gq-0036",
+    "text": "Does the organization maintain a process to efficiently and effectively respond to requests, complaints, concerns and/or questions from authenticated data subjects about Personal Data (PD) the organization collects, receives, processes, stores, transmits, shares, updates and/or disposes?",
+    "control_ids": [
+      "PRI-06.4"
+    ],
+    "domain": "Data Privacy",
+    "is_universal": false,
+    "order": 36
+  },
+  {
+    "question_id": "gq-0037",
+    "text": "Does the organization maintain a process to erase a data subject's Personal Data (PD), in accordance with applicable laws, regulations and contractual obligations pertaining to the retention of their PD?",
+    "control_ids": [
+      "PRI-06.5"
+    ],
+    "domain": "Data Privacy",
+    "is_universal": false,
+    "order": 37
+  },
+  {
+    "question_id": "gq-0038",
+    "text": "Does the organization export a data subject's available Personal Data (PD) in a readily usable format, upon an authenticated request?",
+    "control_ids": [
+      "PRI-06.7"
+    ],
+    "domain": "Data Privacy",
+    "is_universal": false,
+    "order": 38
+  },
+  {
+    "question_id": "gq-0039",
+    "text": "Does the organization include data privacy requirements in contracts and other acquisition-related documents that establish data privacy roles and responsibilities for contractors and service providers?",
+    "control_ids": [
+      "PRI-07.1"
+    ],
+    "domain": "Data Privacy",
+    "is_universal": false,
+    "order": 39
+  },
+  {
+    "question_id": "gq-0040",
+    "text": "Does the organization document Personal Data (PD) processing activities that covers collection, receiving, processing, storage, transmission, sharing, updating and/or disposal actions with sufficient detail to demonstrate conformity with applicable statutory, regulatory and contractual requirements?",
+    "control_ids": [
+      "PRI-14"
+    ],
+    "domain": "Data Privacy",
+    "is_universal": false,
+    "order": 40
+  },
+  {
+    "question_id": "gq-0041",
+    "text": "Do you have a written security risk management policy or framework that explains how you identify, assess, and treat security risks, and is it based on a recognized standard like ISO 27001 or NIST?",
+    "control_ids": [
+      "RSK-01"
+    ],
+    "domain": "Risk Management",
+    "is_universal": false,
+    "order": 41
+  },
+  {
+    "question_id": "gq-0042",
+    "text": "Do you have a Data Protection Impact Assessment (DPIA) template or procedure that you use when introducing new technology, applications, or services that handle personal data?",
+    "control_ids": [
+      "RSK-10"
+    ],
+    "domain": "Risk Management",
+    "is_universal": false,
+    "order": 42
+  }
+]

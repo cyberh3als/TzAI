@@ -1,0 +1,963 @@
+[
+  {
+    "question_id": "gq-0000",
+    "text": "Is there a designated person or role responsible for information security at your organisation (e.g. a security officer, IT manager, or outsourced provider)?",
+    "control_ids": [],
+    "domain": null,
+    "is_universal": true,
+    "order": 0
+  },
+  {
+    "question_id": "gq-0001",
+    "text": "Have you experienced any security incidents, data breaches, or significant IT outages in the past 12 months? If so, briefly describe what happened and how it was handled.",
+    "control_ids": [],
+    "domain": null,
+    "is_universal": true,
+    "order": 1
+  },
+  {
+    "question_id": "gq-0002",
+    "text": "Do employees receive any security awareness training, formal or informal, and how often?",
+    "control_ids": [],
+    "domain": null,
+    "is_universal": true,
+    "order": 2
+  },
+  {
+    "question_id": "gq-0003",
+    "text": "Do you have a written, even informal, incident response plan for handling a security incident if one occurred?",
+    "control_ids": [],
+    "domain": null,
+    "is_universal": true,
+    "order": 3
+  },
+  {
+    "question_id": "gq-0004",
+    "text": "How do you vet and manage third-party vendors or contractors who can access your systems or data?",
+    "control_ids": [],
+    "domain": null,
+    "is_universal": true,
+    "order": 4
+  },
+  {
+    "question_id": "gq-0005",
+    "text": "Is there a written information security policy, even brief, that employees are aware of?",
+    "control_ids": [],
+    "domain": null,
+    "is_universal": true,
+    "order": 5
+  },
+  {
+    "question_id": "gq-0006",
+    "text": "Do you have a documented security and compliance policy framework that guides how security controls are implemented across your organisation?",
+    "control_ids": [
+      "GOV-01"
+    ],
+    "domain": "Security, Compliance & Resilience Governance",
+    "is_universal": false,
+    "order": 6
+  },
+  {
+    "question_id": "gq-0007",
+    "text": "Do you have written security, compliance, and resilience policies, standards, and procedures that are formally approved, maintained, and communicated to employees?",
+    "control_ids": [
+      "GOV-02"
+    ],
+    "domain": "Security, Compliance & Resilience Governance",
+    "is_universal": false,
+    "order": 7
+  },
+  {
+    "question_id": "gq-0008",
+    "text": "Is there a named person or role with the responsibility and resources to coordinate your security, compliance, and resilience programme across the organisation?",
+    "control_ids": [
+      "GOV-04"
+    ],
+    "domain": "Security, Compliance & Resilience Governance",
+    "is_universal": false,
+    "order": 8
+  },
+  {
+    "question_id": "gq-0009",
+    "text": "Do you have a written policy or procedure for identifying, assessing, and managing risks related to artificial intelligence and autonomous technologies?",
+    "control_ids": [
+      "AAT-01"
+    ],
+    "domain": "Artificial Intelligence & Autonomous Technologies",
+    "is_universal": false,
+    "order": 9
+  },
+  {
+    "question_id": "gq-0010",
+    "text": "Do you have a documented IT asset management policy or procedure that defines how company devices, software, and services are tracked, approved for use, and retired?",
+    "control_ids": [
+      "AST-01"
+    ],
+    "domain": "Asset Management",
+    "is_universal": false,
+    "order": 10
+  },
+  {
+    "question_id": "gq-0011",
+    "text": "You mentioned you use Microsoft Intune for device management — do you maintain a current inventory of all company-issued devices, software applications, and cloud services that identifies authorised software and is available for internal review?",
+    "control_ids": [
+      "AST-02"
+    ],
+    "domain": "Asset Management",
+    "is_universal": false,
+    "order": 11
+  },
+  {
+    "question_id": "gq-0012",
+    "text": "Do you maintain up-to-date network architecture diagrams that show how your remote users connect to company systems and where employee data is stored and transmitted?",
+    "control_ids": [
+      "AST-04"
+    ],
+    "domain": "Asset Management",
+    "is_universal": false,
+    "order": 12
+  },
+  {
+    "question_id": "gq-0013",
+    "text": "Do you have a documented business continuity or disaster recovery plan (playbook) that describes how to keep critical operations running or restore them after an outage?",
+    "control_ids": [
+      "BCD-01"
+    ],
+    "domain": "Business Continuity & Disaster Recovery",
+    "is_universal": false,
+    "order": 13
+  },
+  {
+    "question_id": "gq-0014",
+    "text": "You mentioned you do not currently have a backup and recovery solution. Is that still accurate? If not, do you perform recurring backups of company data and periodically test restoring from those backups to verify they work?",
+    "control_ids": [
+      "BCD-11"
+    ],
+    "domain": "Business Continuity & Disaster Recovery",
+    "is_universal": false,
+    "order": 14
+  },
+  {
+    "question_id": "gq-0015",
+    "text": "Do you have a written change management policy or procedure that covers how changes to systems and software are requested, reviewed, and approved?",
+    "control_ids": [
+      "CHG-01"
+    ],
+    "domain": "Change Management",
+    "is_universal": false,
+    "order": 15
+  },
+  {
+    "question_id": "gq-0016",
+    "text": "Are all changes to systems, applications, or configurations prohibited unless a formal, approved change request has been obtained first?",
+    "control_ids": [
+      "CHG-02.1"
+    ],
+    "domain": "Change Management",
+    "is_universal": false,
+    "order": 16
+  },
+  {
+    "question_id": "gq-0017",
+    "text": "Do you maintain documented security configuration standards or a checklist for the cloud services you use, such as Microsoft 365?",
+    "control_ids": [
+      "CLD-01"
+    ],
+    "domain": "Cloud Security",
+    "is_universal": false,
+    "order": 17
+  },
+  {
+    "question_id": "gq-0018",
+    "text": "Do you have a policy or configuration that defines and enforces the allowed geographic locations where your data may be stored or processed in cloud services?",
+    "control_ids": [
+      "CLD-09"
+    ],
+    "domain": "Cloud Security",
+    "is_universal": false,
+    "order": 18
+  },
+  {
+    "question_id": "gq-0019",
+    "text": "Do you maintain a register or list of the legal, regulatory, and contractual requirements that apply to your business?",
+    "control_ids": [
+      "CPL-01"
+    ],
+    "domain": "Compliance",
+    "is_universal": false,
+    "order": 19
+  },
+  {
+    "question_id": "gq-0020",
+    "text": "Do you have a written document that maps your security and compliance controls to the specific legal, regulatory, or contractual requirements they are meant to satisfy?",
+    "control_ids": [
+      "CPL-01.2"
+    ],
+    "domain": "Compliance",
+    "is_universal": false,
+    "order": 20
+  },
+  {
+    "question_id": "gq-0021",
+    "text": "Is there a named person, role, or committee responsible for overseeing security and compliance that reports directly to executive leadership?",
+    "control_ids": [
+      "CPL-02"
+    ],
+    "domain": "Compliance",
+    "is_universal": false,
+    "order": 21
+  },
+  {
+    "question_id": "gq-0022",
+    "text": "You mentioned you use Microsoft Intune and Microsoft Defender — do you use these tools (or similar checks) to confirm that employee devices, applications, and data conform to your security and compliance policies?",
+    "control_ids": [
+      "CPL-03"
+    ],
+    "domain": "Compliance",
+    "is_universal": false,
+    "order": 22
+  },
+  {
+    "question_id": "gq-0023",
+    "text": "Do you maintain documented secure configuration baselines for your company laptops and Microsoft 365 environment, such as approved hardening settings?",
+    "control_ids": [
+      "CFG-02"
+    ],
+    "domain": "Configuration Management",
+    "is_universal": false,
+    "order": 23
+  },
+  {
+    "question_id": "gq-0024",
+    "text": "Do you block or disable unnecessary ports, protocols, and services on your company devices and Microsoft 365 so only essential business functions are allowed?",
+    "control_ids": [
+      "CFG-03"
+    ],
+    "domain": "Configuration Management",
+    "is_universal": false,
+    "order": 24
+  },
+  {
+    "question_id": "gq-0025",
+    "text": "Do you prevent non-administrative users from installing software on company-managed devices, for example by requiring administrator approval or using an Intune policy?",
+    "control_ids": [
+      "CFG-05"
+    ],
+    "domain": "Configuration Management",
+    "is_universal": false,
+    "order": 25
+  },
+  {
+    "question_id": "gq-0026",
+    "text": "Do you have a company-wide monitoring policy or standard that defines what monitoring is performed across your systems?",
+    "control_ids": [
+      "MON-01"
+    ],
+    "domain": "Continuous Monitoring",
+    "is_universal": false,
+    "order": 26
+  },
+  {
+    "question_id": "gq-0027",
+    "text": "Do you have a written procedure that sets how often event logs are reviewed and how suspicious activity is escalated?",
+    "control_ids": [
+      "MON-01.8"
+    ],
+    "domain": "Continuous Monitoring",
+    "is_universal": false,
+    "order": 27
+  },
+  {
+    "question_id": "gq-0028",
+    "text": "Do you currently have a SIEM (Security Information and Event Management) or similar tool that centrally collects security-related event logs?",
+    "control_ids": [
+      "MON-02"
+    ],
+    "domain": "Continuous Monitoring",
+    "is_universal": false,
+    "order": 28
+  },
+  {
+    "question_id": "gq-0029",
+    "text": "Are your company devices and services configured to produce event logs that include event type, date/time, location, source, success or failure, and the user involved?",
+    "control_ids": [
+      "MON-03"
+    ],
+    "domain": "Continuous Monitoring",
+    "is_universal": false,
+    "order": 29
+  },
+  {
+    "question_id": "gq-0030",
+    "text": "Do you restrict access to event logs and audit tools so that only authorized staff can view or modify them, and are they protected from unauthorized deletion?",
+    "control_ids": [
+      "MON-08"
+    ],
+    "domain": "Continuous Monitoring",
+    "is_universal": false,
+    "order": 30
+  },
+  {
+    "question_id": "gq-0031",
+    "text": "Do you have a log retention policy that defines how long event logs are kept to meet legal or contractual requirements?",
+    "control_ids": [
+      "MON-10"
+    ],
+    "domain": "Continuous Monitoring",
+    "is_universal": false,
+    "order": 31
+  },
+  {
+    "question_id": "gq-0032",
+    "text": "Do you use a user and entity behavior analytics (UEBA) or user activity monitoring (UAM) tool to detect unusual behavior that could indicate account compromise?",
+    "control_ids": [
+      "MON-16"
+    ],
+    "domain": "Continuous Monitoring",
+    "is_universal": false,
+    "order": 32
+  },
+  {
+    "question_id": "gq-0033",
+    "text": "Do you use only standard, approved encryption protocols and algorithms (such as TLS 1.2 or higher and AES) rather than custom or home-grown encryption methods?",
+    "control_ids": [
+      "CRY-01"
+    ],
+    "domain": "Cryptographic Protections",
+    "is_universal": false,
+    "order": 33
+  },
+  {
+    "question_id": "gq-0034",
+    "text": "Do you require encrypted connections (e.g., TLS/HTTPS) for all data transmitted over the internet, ensuring both confidentiality and integrity of the data in transit?",
+    "control_ids": [
+      "CRY-03",
+      "CRY-04"
+    ],
+    "domain": "Cryptographic Protections",
+    "is_universal": false,
+    "order": 34
+  },
+  {
+    "question_id": "gq-0035",
+    "text": "You mentioned you use Microsoft Intune — do you enforce full-disk encryption (e.g., BitLocker) on all company laptops and desktops through Intune?",
+    "control_ids": [
+      "CRY-05"
+    ],
+    "domain": "Cryptographic Protections",
+    "is_universal": false,
+    "order": 35
+  },
+  {
+    "question_id": "gq-0036",
+    "text": "Do you have a documented encryption key management procedure that covers secure key storage, access restrictions, and regular key rotation?",
+    "control_ids": [
+      "CRY-09"
+    ],
+    "domain": "Cryptographic Protections",
+    "is_universal": false,
+    "order": 36
+  },
+  {
+    "question_id": "gq-0037",
+    "text": "Do you have a documented set of data protection controls for employee data, such as access limits, encryption, and disposal rules?",
+    "control_ids": [
+      "DCH-01"
+    ],
+    "domain": "Data Classification & Handling",
+    "is_universal": false,
+    "order": 37
+  },
+  {
+    "question_id": "gq-0038",
+    "text": "Is there a named person or role assigned as data protection owner or steward, and have you communicated that assignment to employees?",
+    "control_ids": [
+      "DCH-01.1"
+    ],
+    "domain": "Data Classification & Handling",
+    "is_universal": false,
+    "order": 38
+  },
+  {
+    "question_id": "gq-0039",
+    "text": "Do you have a data classification policy that labels data as public, internal, confidential, or similar, based on legal or contract requirements?",
+    "control_ids": [
+      "DCH-02"
+    ],
+    "domain": "Data Classification & Handling",
+    "is_universal": false,
+    "order": 39
+  },
+  {
+    "question_id": "gq-0040",
+    "text": "Do you restrict access to sensitive employee data to only those employees who need it for their job?",
+    "control_ids": [
+      "DCH-03.1"
+    ],
+    "domain": "Data Classification & Handling",
+    "is_universal": false,
+    "order": 40
+  },
+  {
+    "question_id": "gq-0041",
+    "text": "Do you have formal procedures for securely disposing of old computers, drives, or other media when they are no longer needed?",
+    "control_ids": [
+      "DCH-08"
+    ],
+    "domain": "Data Classification & Handling",
+    "is_universal": false,
+    "order": 41
+  },
+  {
+    "question_id": "gq-0042",
+    "text": "Before disposing of, returning, or reusing a laptop or storage device, do you wipe or sanitize the data using an approved method appropriate for its sensitivity?",
+    "control_ids": [
+      "DCH-09"
+    ],
+    "domain": "Data Classification & Handling",
+    "is_universal": false,
+    "order": 42
+  },
+  {
+    "question_id": "gq-0043",
+    "text": "You mentioned you use Microsoft Intune — is the use of USB drives and other removable media blocked or restricted through Intune on company devices?",
+    "control_ids": [
+      "DCH-12"
+    ],
+    "domain": "Data Classification & Handling",
+    "is_universal": false,
+    "order": 43
+  },
+  {
+    "question_id": "gq-0044",
+    "text": "Do you securely destroy or erase sensitive employee data when it is no longer needed, including paper records?",
+    "control_ids": [
+      "DCH-21"
+    ],
+    "domain": "Data Classification & Handling",
+    "is_universal": false,
+    "order": 44
+  },
+  {
+    "question_id": "gq-0045",
+    "text": "Do you maintain an inventory or data map showing where employee data resides, including which systems and devices hold it?",
+    "control_ids": [
+      "DCH-24"
+    ],
+    "domain": "Data Classification & Handling",
+    "is_universal": false,
+    "order": 45
+  },
+  {
+    "question_id": "gq-0046",
+    "text": "You mentioned using Microsoft Intune — is it configured as your centralized endpoint management tool to enforce security settings on all company devices?",
+    "control_ids": [
+      "END-01"
+    ],
+    "domain": "Endpoint Security",
+    "is_universal": false,
+    "order": 46
+  },
+  {
+    "question_id": "gq-0047",
+    "text": "You mentioned using Microsoft Defender — is it actively running on all company devices to detect and remove malware?",
+    "control_ids": [
+      "END-04"
+    ],
+    "domain": "Endpoint Security",
+    "is_universal": false,
+    "order": 47
+  },
+  {
+    "question_id": "gq-0048",
+    "text": "Do you have a documented personnel security programme that sets out how employees and contractors are screened, granted access, and offboarded?",
+    "control_ids": [
+      "HRS-01"
+    ],
+    "domain": "Human Resources Security",
+    "is_universal": false,
+    "order": 48
+  },
+  {
+    "question_id": "gq-0049",
+    "text": "Do you have written cybersecurity roles and responsibilities for all employees and contractors?",
+    "control_ids": [
+      "HRS-03"
+    ],
+    "domain": "Human Resources Security",
+    "is_universal": false,
+    "order": 49
+  },
+  {
+    "question_id": "gq-0050",
+    "text": "Do you perform background checks or reference checks on new employees and contractors before granting them access to company systems?",
+    "control_ids": [
+      "HRS-04"
+    ],
+    "domain": "Human Resources Security",
+    "is_universal": false,
+    "order": 50
+  },
+  {
+    "question_id": "gq-0051",
+    "text": "Do you require all employees and contractors to complete security awareness training that includes data protection responsibilities?",
+    "control_ids": [
+      "HRS-05"
+    ],
+    "domain": "Human Resources Security",
+    "is_universal": false,
+    "order": 51
+  },
+  {
+    "question_id": "gq-0052",
+    "text": "Do you have a written acceptable use policy that defines acceptable and unacceptable use of company technology and includes consequences for violations?",
+    "control_ids": [
+      "HRS-05.1"
+    ],
+    "domain": "Human Resources Security",
+    "is_universal": false,
+    "order": 52
+  },
+  {
+    "question_id": "gq-0053",
+    "text": "Do you require employees and third parties to sign an access agreement before they are given access to company systems?",
+    "control_ids": [
+      "HRS-06"
+    ],
+    "domain": "Human Resources Security",
+    "is_universal": false,
+    "order": 53
+  },
+  {
+    "question_id": "gq-0054",
+    "text": "Do you require employees and third parties to sign a non-disclosure agreement (NDA) or confidentiality agreement before they can access company data?",
+    "control_ids": [
+      "HRS-06.1"
+    ],
+    "domain": "Human Resources Security",
+    "is_universal": false,
+    "order": 54
+  },
+  {
+    "question_id": "gq-0055",
+    "text": "Do you periodically review the security roles and responsibilities of third-party personnel who have access to your systems?",
+    "control_ids": [
+      "HRS-10"
+    ],
+    "domain": "Human Resources Security",
+    "is_universal": false,
+    "order": 55
+  },
+  {
+    "question_id": "gq-0056",
+    "text": "Do you have a written identity and access management policy that defines how user accounts and access rights are managed across your systems?",
+    "control_ids": [
+      "IAC-01"
+    ],
+    "domain": "Identification & Authentication",
+    "is_universal": false,
+    "order": 56
+  },
+  {
+    "question_id": "gq-0057",
+    "text": "Do you have a formal onboarding/offboarding checklist or process to create accounts for new employees and remove access when they leave?",
+    "control_ids": [
+      "IAC-07"
+    ],
+    "domain": "Identification & Authentication",
+    "is_universal": false,
+    "order": 57
+  },
+  {
+    "question_id": "gq-0058",
+    "text": "When an employee changes roles or leaves, do you have a defined procedure to revoke or adjust their access to systems and data?",
+    "control_ids": [
+      "IAC-07.1"
+    ],
+    "domain": "Identification & Authentication",
+    "is_universal": false,
+    "order": 58
+  },
+  {
+    "question_id": "gq-0059",
+    "text": "Do you require multi-factor authentication for all users accessing your Microsoft 365 environment, and do you have a written password standard for accounts?",
+    "control_ids": [
+      "IAC-10"
+    ],
+    "domain": "Identification & Authentication",
+    "is_universal": false,
+    "order": 59
+  },
+  {
+    "question_id": "gq-0060",
+    "text": "Do you ensure that default passwords on new accounts or devices are changed before they are used?",
+    "control_ids": [
+      "IAC-10.8"
+    ],
+    "domain": "Identification & Authentication",
+    "is_universal": false,
+    "order": 60
+  },
+  {
+    "question_id": "gq-0061",
+    "text": "Do you have a policy or list that defines which types of accounts are allowed and prohibited (e.g., service, guest, temporary) and how each is managed?",
+    "control_ids": [
+      "IAC-15"
+    ],
+    "domain": "Identification & Authentication",
+    "is_universal": false,
+    "order": 61
+  },
+  {
+    "question_id": "gq-0062",
+    "text": "You mentioned you use Microsoft Entra ID — do you have automated rules to disable inactive user accounts after a defined period of time?",
+    "control_ids": [
+      "IAC-15.3"
+    ],
+    "domain": "Identification & Authentication",
+    "is_universal": false,
+    "order": 62
+  },
+  {
+    "question_id": "gq-0063",
+    "text": "Do you periodically review all system accounts to confirm each has a business owner and purpose, and disable any that don't?",
+    "control_ids": [
+      "IAC-15.7"
+    ],
+    "domain": "Identification & Authentication",
+    "is_universal": false,
+    "order": 63
+  },
+  {
+    "question_id": "gq-0064",
+    "text": "Do you restrict privileged access (like Global Administrator in Microsoft Entra ID) to only a small number of authorized employees and service accounts?",
+    "control_ids": [
+      "IAC-16"
+    ],
+    "domain": "Identification & Authentication",
+    "is_universal": false,
+    "order": 64
+  },
+  {
+    "question_id": "gq-0065",
+    "text": "Do you have a scheduled review of privileged access rights to ensure each individual or service account still needs those privileges, and remove unnecessary access?",
+    "control_ids": [
+      "IAC-17"
+    ],
+    "domain": "Identification & Authentication",
+    "is_universal": false,
+    "order": 65
+  },
+  {
+    "question_id": "gq-0066",
+    "text": "In Microsoft Entra ID, do you enforce least-privilege permissions so users only get access to the systems and data they need for their job role?",
+    "control_ids": [
+      "IAC-20",
+      "IAC-21"
+    ],
+    "domain": "Identification & Authentication",
+    "is_universal": false,
+    "order": 66
+  },
+  {
+    "question_id": "gq-0067",
+    "text": "Do you limit access to sensitive or regulated data, such as employee personal information, to only those employees whose job requires it?",
+    "control_ids": [
+      "IAC-20.1"
+    ],
+    "domain": "Identification & Authentication",
+    "is_universal": false,
+    "order": 67
+  },
+  {
+    "question_id": "gq-0068",
+    "text": "Do you require management approval before creating a new user account or changing someone's existing access permissions?",
+    "control_ids": [
+      "IAC-28.1"
+    ],
+    "domain": "Identification & Authentication",
+    "is_universal": false,
+    "order": 68
+  },
+  {
+    "question_id": "gq-0069",
+    "text": "Do you have a documented incident response plan that covers preparation, detection or incident reporting, analysis, containment, eradication, and recovery? If yes, when was it last updated?",
+    "control_ids": [
+      "IRO-02"
+    ],
+    "domain": "Incident Response",
+    "is_universal": false,
+    "order": 69
+  },
+  {
+    "question_id": "gq-0070",
+    "text": "Do you have a written security assessment process or checklist that you use to evaluate your security controls?",
+    "control_ids": [
+      "IAO-01"
+    ],
+    "domain": "Information Assurance",
+    "is_universal": false,
+    "order": 70
+  },
+  {
+    "question_id": "gq-0071",
+    "text": "Do you perform formal security assessments or audits to confirm your security controls are working correctly and meeting your requirements?",
+    "control_ids": [
+      "IAO-02"
+    ],
+    "domain": "Information Assurance",
+    "is_universal": false,
+    "order": 71
+  },
+  {
+    "question_id": "gq-0072",
+    "text": "Do you require any external developers or software vendors to perform security testing before you accept their product or service?",
+    "control_ids": [
+      "IAO-04"
+    ],
+    "domain": "Information Assurance",
+    "is_universal": false,
+    "order": 72
+  },
+  {
+    "question_id": "gq-0073",
+    "text": "Do you have a formal sign-off or approval process before a new system or application is put into production use?",
+    "control_ids": [
+      "IAO-07"
+    ],
+    "domain": "Information Assurance",
+    "is_universal": false,
+    "order": 73
+  },
+  {
+    "question_id": "gq-0074",
+    "text": "You mentioned you use Microsoft Intune — do you use it to centrally manage and enforce security settings (such as encryption, passcode, or remote wipe) on all company mobile devices and laptops?",
+    "control_ids": [
+      "MDM-01"
+    ],
+    "domain": "Mobile Device Management",
+    "is_universal": false,
+    "order": 74
+  },
+  {
+    "question_id": "gq-0075",
+    "text": "You previously indicated you do not currently use any network security controls. Do you maintain written procedures for configuring and reviewing network security controls, such as firewall rules and remote access settings?",
+    "control_ids": [
+      "NET-01"
+    ],
+    "domain": "Network Security",
+    "is_universal": false,
+    "order": 75
+  },
+  {
+    "question_id": "gq-0076",
+    "text": "You previously indicated you do not currently use any network security controls. Do you have firewalls or similar devices in place to monitor and control traffic at your internet boundary and between internal network segments?",
+    "control_ids": [
+      "NET-03"
+    ],
+    "domain": "Network Security",
+    "is_universal": false,
+    "order": 76
+  },
+  {
+    "question_id": "gq-0077",
+    "text": "You previously indicated you do not currently use any network security controls. Do you use access control lists (ACLs) on firewalls or routers that are set to deny all traffic by default and allow only explicitly approved traffic?",
+    "control_ids": [
+      "NET-04",
+      "NET-04.1"
+    ],
+    "domain": "Network Security",
+    "is_universal": false,
+    "order": 77
+  },
+  {
+    "question_id": "gq-0078",
+    "text": "You previously indicated you do not currently use any network security controls. Do you separate your network into segments so that systems containing employee data are isolated from other devices and guest networks?",
+    "control_ids": [
+      "NET-06"
+    ],
+    "domain": "Network Security",
+    "is_universal": false,
+    "order": 78
+  },
+  {
+    "question_id": "gq-0079",
+    "text": "You mentioned you use Microsoft 365. Do you have email encryption, anti-malware/anti-phishing filtering, and email continuity or backup enabled to protect your email confidentiality, integrity, and availability?",
+    "control_ids": [
+      "NET-13"
+    ],
+    "domain": "Network Security",
+    "is_universal": false,
+    "order": 79
+  },
+  {
+    "question_id": "gq-0080",
+    "text": "You previously indicated you do not currently use any network security controls. Do you maintain a list of approved secure remote access methods and review remote access permissions at least annually?",
+    "control_ids": [
+      "NET-14"
+    ],
+    "domain": "Network Security",
+    "is_universal": false,
+    "order": 80
+  },
+  {
+    "question_id": "gq-0081",
+    "text": "Do you have a written data protection policy or privacy notice that covers how employee personal data is collected, used, stored, shared, and deleted?",
+    "control_ids": [
+      "PRI-01"
+    ],
+    "domain": "Data Privacy",
+    "is_universal": false,
+    "order": 81
+  },
+  {
+    "question_id": "gq-0082",
+    "text": "Do your contracts with third-party vendors or service providers include a data privacy addendum or clauses that state their responsibilities for protecting any personal data they access?",
+    "control_ids": [
+      "PRI-07.1"
+    ],
+    "domain": "Data Privacy",
+    "is_universal": false,
+    "order": 82
+  },
+  {
+    "question_id": "gq-0083",
+    "text": "Do you perform security or compliance checks before launching a new application, system, or technology service to confirm its security settings and data protection are working as intended?",
+    "control_ids": [
+      "PRM-04"
+    ],
+    "domain": "Project & Resource Management",
+    "is_universal": false,
+    "order": 83
+  },
+  {
+    "question_id": "gq-0084",
+    "text": "Do you have a formal change approval process for making changes to any applications or systems you manage, where changes are reviewed and approved before being put into place?",
+    "control_ids": [
+      "PRM-07"
+    ],
+    "domain": "Project & Resource Management",
+    "is_universal": false,
+    "order": 84
+  },
+  {
+    "question_id": "gq-0085",
+    "text": "Do you have a formal risk management program or policy that aligns with industry-recognized cybersecurity risk management practices?",
+    "control_ids": [
+      "RSK-01"
+    ],
+    "domain": "Risk Management",
+    "is_universal": false,
+    "order": 85
+  },
+  {
+    "question_id": "gq-0086",
+    "text": "Do you perform periodic risk assessments that consider the likelihood and potential impact of unauthorized access, use, disclosure, disruption, modification, or destruction of your data and systems?",
+    "control_ids": [
+      "RSK-04"
+    ],
+    "domain": "Risk Management",
+    "is_universal": false,
+    "order": 86
+  },
+  {
+    "question_id": "gq-0087",
+    "text": "Do you maintain a risk register to track and report on identified risks?",
+    "control_ids": [
+      "RSK-04.1"
+    ],
+    "domain": "Risk Management",
+    "is_universal": false,
+    "order": 87
+  },
+  {
+    "question_id": "gq-0088",
+    "text": "Do you take corrective actions to reduce or resolve identified risks to an acceptable level?",
+    "control_ids": [
+      "RSK-06"
+    ],
+    "domain": "Risk Management",
+    "is_universal": false,
+    "order": 88
+  },
+  {
+    "question_id": "gq-0089",
+    "text": "Do you have a supply chain risk management plan that covers acquiring, maintaining, and disposing of technology and services, including documented mitigating actions and monitoring?",
+    "control_ids": [
+      "RSK-09"
+    ],
+    "domain": "Risk Management",
+    "is_universal": false,
+    "order": 89
+  },
+  {
+    "question_id": "gq-0090",
+    "text": "Do you have a documented third-party management policy or program that defines how you evaluate and manage outside vendors?",
+    "control_ids": [
+      "TPM-01"
+    ],
+    "domain": "Third-Party Management",
+    "is_universal": false,
+    "order": 90
+  },
+  {
+    "question_id": "gq-0091",
+    "text": "Do you perform a security risk assessment before granting a third party access to your company's systems, applications, or data?",
+    "control_ids": [
+      "TPM-04"
+    ],
+    "domain": "Third-Party Management",
+    "is_universal": false,
+    "order": 91
+  },
+  {
+    "question_id": "gq-0092",
+    "text": "Do your contracts or agreements with third parties specify where your data may be processed or stored, such as requiring it to remain in India?",
+    "control_ids": [
+      "TPM-04.4"
+    ],
+    "domain": "Third-Party Management",
+    "is_universal": false,
+    "order": 92
+  },
+  {
+    "question_id": "gq-0093",
+    "text": "Do your third-party contracts include specific security, compliance, and resilience obligations, such as data protection clauses and incident notification requirements?",
+    "control_ids": [
+      "TPM-05"
+    ],
+    "domain": "Third-Party Management",
+    "is_universal": false,
+    "order": 93
+  },
+  {
+    "question_id": "gq-0094",
+    "text": "Do you maintain a RASCI matrix or similar responsibility assignment document for third-party relationships and review it at least annually to ensure roles and responsibilities are current?",
+    "control_ids": [
+      "TPM-05.5"
+    ],
+    "domain": "Third-Party Management",
+    "is_universal": false,
+    "order": 94
+  },
+  {
+    "question_id": "gq-0095",
+    "text": "You mentioned you're not currently using a vulnerability management tool—do you keep any list, spreadsheet, or ticketing system where known security vulnerabilities are recorded and tracked until they're fixed?",
+    "control_ids": [
+      "VPM-02"
+    ],
+    "domain": "Vulnerability & Patch Management",
+    "is_universal": false,
+    "order": 95
+  },
+  {
+    "question_id": "gq-0096",
+    "text": "You mentioned you do not have a patch management process—do you have any routine or automated way to apply software and firmware updates to employees' laptops and business applications, such as monthly patching or Microsoft Intune update rings?",
+    "control_ids": [
+      "VPM-05"
+    ],
+    "domain": "Vulnerability & Patch Management",
+    "is_universal": false,
+    "order": 96
+  }
+]

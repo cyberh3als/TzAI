@@ -1,0 +1,927 @@
+{
+  "questions": [
+    {
+      "question_id": "gq-0000",
+      "text": "Is there a designated person or role responsible for information security at your organisation (e.g. a security officer, IT manager, or outsourced provider)?",
+      "control_ids": [],
+      "domain": null,
+      "is_universal": true,
+      "order": 0
+    },
+    {
+      "question_id": "gq-0001",
+      "text": "Have you experienced any security incidents, data breaches, or significant IT outages in the past 12 months? If so, briefly describe what happened and how it was handled.",
+      "control_ids": [],
+      "domain": null,
+      "is_universal": true,
+      "order": 1
+    },
+    {
+      "question_id": "gq-0002",
+      "text": "Do employees receive any security awareness training, formal or informal, and how often?",
+      "control_ids": [],
+      "domain": null,
+      "is_universal": true,
+      "order": 2
+    },
+    {
+      "question_id": "gq-0003",
+      "text": "Do you have a written, even informal, incident response plan for handling a security incident if one occurred?",
+      "control_ids": [],
+      "domain": null,
+      "is_universal": true,
+      "order": 3
+    },
+    {
+      "question_id": "gq-0004",
+      "text": "How do you vet and manage third-party vendors or contractors who can access your systems or data?",
+      "control_ids": [],
+      "domain": null,
+      "is_universal": true,
+      "order": 4
+    },
+    {
+      "question_id": "gq-0005",
+      "text": "Is there a written information security policy, even brief, that employees are aware of?",
+      "control_ids": [],
+      "domain": null,
+      "is_universal": true,
+      "order": 5
+    },
+    {
+      "question_id": "gq-0006",
+      "text": "Do you have a formal document or management approval that establishes and authorises your security and compliance governance controls across the business?",
+      "control_ids": [
+        "GOV-01"
+      ],
+      "domain": "Security, Compliance & Resilience Governance",
+      "is_universal": false,
+      "order": 6
+    },
+    {
+      "question_id": "gq-0007",
+      "text": "Is there a security steering committee or advisory group of key managers/executives that meets regularly to align security and compliance with business needs?",
+      "control_ids": [
+        "GOV-01.1"
+      ],
+      "domain": "Security, Compliance & Resilience Governance",
+      "is_universal": false,
+      "order": 7
+    },
+    {
+      "question_id": "gq-0008",
+      "text": "Do you provide regular written governance status reports and recommendations to the owner or executive decision-makers on security, compliance and resilience matters?",
+      "control_ids": [
+        "GOV-01.2"
+      ],
+      "domain": "Security, Compliance & Resilience Governance",
+      "is_universal": false,
+      "order": 8
+    },
+    {
+      "question_id": "gq-0009",
+      "text": "Do you maintain a written set of security, compliance and resilience policies, standards and procedures that employees can access and follow?",
+      "control_ids": [
+        "GOV-02"
+      ],
+      "domain": "Security, Compliance & Resilience Governance",
+      "is_universal": false,
+      "order": 9
+    },
+    {
+      "question_id": "gq-0010",
+      "text": "Do you review and update your security and compliance policies, standards and procedures at least once a year, or after significant changes?",
+      "control_ids": [
+        "GOV-03"
+      ],
+      "domain": "Security, Compliance & Resilience Governance",
+      "is_universal": false,
+      "order": 10
+    },
+    {
+      "question_id": "gq-0011",
+      "text": "Have you assigned a named person or role with responsibility and budget to coordinate and maintain your company-wide security and compliance programme?",
+      "control_ids": [
+        "GOV-04"
+      ],
+      "domain": "Security, Compliance & Resilience Governance",
+      "is_universal": false,
+      "order": 11
+    },
+    {
+      "question_id": "gq-0012",
+      "text": "Do you define, monitor and report security and compliance performance measures to management, such as incident counts, patching status, or training completion?",
+      "control_ids": [
+        "GOV-05"
+      ],
+      "domain": "Security, Compliance & Resilience Governance",
+      "is_universal": false,
+      "order": 12
+    },
+    {
+      "question_id": "gq-0013",
+      "text": "Have you documented your organisation's mission and business context, such as what the business does, who it serves, and where it operates?",
+      "control_ids": [
+        "GOV-08"
+      ],
+      "domain": "Security, Compliance & Resilience Governance",
+      "is_universal": false,
+      "order": 13
+    },
+    {
+      "question_id": "gq-0014",
+      "text": "Have you defined your top-level security and compliance objectives or desired outcomes before selecting the specific policies and technical controls you implement?",
+      "control_ids": [
+        "GOV-09"
+      ],
+      "domain": "Security, Compliance & Resilience Governance",
+      "is_universal": false,
+      "order": 14
+    },
+    {
+      "question_id": "gq-0015",
+      "text": "Have you assigned data or process owners to monitor the systems, applications, services and data under their control for security threats and to confirm existing controls are operating correctly on an ongoing basis?",
+      "control_ids": [
+        "GOV-15.5"
+      ],
+      "domain": "Security, Compliance & Resilience Governance",
+      "is_universal": false,
+      "order": 15
+    },
+    {
+      "question_id": "gq-0016",
+      "text": "Do you maintain an inventory of your critical technology assets, applications, services, and data, with a named owner or stakeholder assigned to each?",
+      "control_ids": [
+        "AST-01.2"
+      ],
+      "domain": "Asset Management",
+      "is_universal": false,
+      "order": 16
+    },
+    {
+      "question_id": "gq-0017",
+      "text": "Do you document a security and compliance scope categorization for each technology asset, application, service, and for internal and third-party personnel so that applicable controls can be assigned?",
+      "control_ids": [
+        "AST-04.1"
+      ],
+      "domain": "Asset Management",
+      "is_universal": false,
+      "order": 17
+    },
+    {
+      "question_id": "gq-0018",
+      "text": "You mentioned backups are done every 6 months — do you have a documented business continuity and disaster recovery plan or playbook that describes how to restore critical systems and data if they become unavailable?",
+      "control_ids": [
+        "BCD-01"
+      ],
+      "domain": "Business Continuity & Disaster Recovery",
+      "is_universal": false,
+      "order": 18
+    },
+    {
+      "question_id": "gq-0019",
+      "text": "Do you have a written change management policy or procedure that defines how changes to your systems, applications, or cloud configurations are requested, reviewed, and approved before they are made?",
+      "control_ids": [
+        "CHG-01"
+      ],
+      "domain": "Change Management",
+      "is_universal": false,
+      "order": 19
+    },
+    {
+      "question_id": "gq-0020",
+      "text": "You mentioned you use AWS — do you have a documented Customer Responsibility Matrix (or shared responsibility model) that lists which security, compliance, and resilience duties are handled by AWS versus your company?",
+      "control_ids": [
+        "CLD-06.1"
+      ],
+      "domain": "Cloud Security",
+      "is_universal": false,
+      "order": 20
+    },
+    {
+      "question_id": "gq-0021",
+      "text": "Do you have a written register or checklist of the legal, regulatory, and customer contract obligations that apply to your security and data practices?",
+      "control_ids": [
+        "CPL-01"
+      ],
+      "domain": "Compliance",
+      "is_universal": false,
+      "order": 21
+    },
+    {
+      "question_id": "gq-0022",
+      "text": "Do you document instances where you have failed to meet a legal, regulatory, or contractual obligation, along with the corrective action you took?",
+      "control_ids": [
+        "CPL-01.1"
+      ],
+      "domain": "Compliance",
+      "is_universal": false,
+      "order": 22
+    },
+    {
+      "question_id": "gq-0023",
+      "text": "Do you maintain a mapping that shows which of your security controls satisfy each legal, regulatory, or contractual requirement, and do you periodically check that the mapping covers all obligations?",
+      "control_ids": [
+        "CPL-01.2"
+      ],
+      "domain": "Compliance",
+      "is_universal": false,
+      "order": 23
+    },
+    {
+      "question_id": "gq-0024",
+      "text": "Do you keep a compliance evidence package (e.g., policies, audit reports, attestations) that you can produce to show you meet applicable cybersecurity and data protection requirements?",
+      "control_ids": [
+        "CPL-01.3"
+      ],
+      "domain": "Compliance",
+      "is_universal": false,
+      "order": 24
+    },
+    {
+      "question_id": "gq-0025",
+      "text": "Is there a named individual or role responsible for security, compliance, and resilience oversight who reports to your executive leadership?",
+      "control_ids": [
+        "CPL-02"
+      ],
+      "domain": "Compliance",
+      "is_universal": false,
+      "order": 25
+    },
+    {
+      "question_id": "gq-0026",
+      "text": "Do you have an internal audit activity—even if it is a periodic review by someone outside day-to-day IT—that reports to management on how well your technology and information governance is working?",
+      "control_ids": [
+        "CPL-02.1"
+      ],
+      "domain": "Compliance",
+      "is_universal": false,
+      "order": 26
+    },
+    {
+      "question_id": "gq-0027",
+      "text": "Do you perform scheduled audits or internal reviews of your security and compliance controls at least annually to check they match your policies and standards?",
+      "control_ids": [
+        "CPL-02.2"
+      ],
+      "domain": "Compliance",
+      "is_universal": false,
+      "order": 27
+    },
+    {
+      "question_id": "gq-0028",
+      "text": "You mentioned you use Microsoft Intune, Microsoft 365, and AWS. Do you regularly check that all these environments and devices are configured according to your security standards?",
+      "control_ids": [
+        "CPL-03"
+      ],
+      "domain": "Compliance",
+      "is_universal": false,
+      "order": 28
+    },
+    {
+      "question_id": "gq-0029",
+      "text": "You mentioned using Microsoft 365, AWS, and Intune — do you have encryption enabled using standard algorithms (such as AES and TLS) for data in transit and at rest across these systems?",
+      "control_ids": [
+        "CRY-01"
+      ],
+      "domain": "Cryptographic Protections",
+      "is_universal": false,
+      "order": 29
+    },
+    {
+      "question_id": "gq-0030",
+      "text": "Do you have a written policy that restricts or governs when sensitive or regulated data can be transferred to other countries or international organizations?",
+      "control_ids": [
+        "DCH-25"
+      ],
+      "domain": "Data Classification & Handling",
+      "is_universal": false,
+      "order": 30
+    },
+    {
+      "question_id": "gq-0031",
+      "text": "Do you have a written personnel security policy that covers screening, access provisioning, and offboarding procedures?",
+      "control_ids": [
+        "HRS-01"
+      ],
+      "domain": "Human Resources Security",
+      "is_universal": false,
+      "order": 31
+    },
+    {
+      "question_id": "gq-0032",
+      "text": "Do you maintain a register or matrix that assigns risk levels to each job role and lists the screening requirements (e.g., background checks) for those roles?",
+      "control_ids": [
+        "HRS-02"
+      ],
+      "domain": "Human Resources Security",
+      "is_universal": false,
+      "order": 32
+    },
+    {
+      "question_id": "gq-0033",
+      "text": "Do you have documented cybersecurity roles and responsibilities for all employees and contractors?",
+      "control_ids": [
+        "HRS-03"
+      ],
+      "domain": "Human Resources Security",
+      "is_universal": false,
+      "order": 33
+    },
+    {
+      "question_id": "gq-0034",
+      "text": "Do you communicate cybersecurity roles and responsibilities to users through an employee handbook, security policy acknowledgment, or similar written material?",
+      "control_ids": [
+        "HRS-03.1"
+      ],
+      "domain": "Human Resources Security",
+      "is_universal": false,
+      "order": 34
+    },
+    {
+      "question_id": "gq-0035",
+      "text": "Do you have job descriptions or qualification criteria that specify required security skills or certifications for security-related positions?",
+      "control_ids": [
+        "HRS-03.2"
+      ],
+      "domain": "Human Resources Security",
+      "is_universal": false,
+      "order": 35
+    },
+    {
+      "question_id": "gq-0036",
+      "text": "Do you perform background or reference checks on new employees and contractors before granting them access to company systems or data?",
+      "control_ids": [
+        "HRS-04"
+      ],
+      "domain": "Human Resources Security",
+      "is_universal": false,
+      "order": 36
+    },
+    {
+      "question_id": "gq-0037",
+      "text": "Do you provide formal training to all authorized users on proper data handling practices for the types of data they can access?",
+      "control_ids": [
+        "HRS-04.2"
+      ],
+      "domain": "Human Resources Security",
+      "is_universal": false,
+      "order": 37
+    },
+    {
+      "question_id": "gq-0038",
+      "text": "Do you have a policy or code of conduct that requires all employees and contractors to follow cybersecurity and data protection principles in their daily work?",
+      "control_ids": [
+        "HRS-05"
+      ],
+      "domain": "Human Resources Security",
+      "is_universal": false,
+      "order": 38
+    },
+    {
+      "question_id": "gq-0039",
+      "text": "Do you have a written acceptable use policy that defines acceptable and unacceptable technology use and the consequences for violations?",
+      "control_ids": [
+        "HRS-05.1"
+      ],
+      "domain": "Human Resources Security",
+      "is_universal": false,
+      "order": 39
+    },
+    {
+      "question_id": "gq-0040",
+      "text": "Does your acceptable use policy explicitly restrict social media posting about the company, posting company information on external websites, and sharing account credentials?",
+      "control_ids": [
+        "HRS-05.2"
+      ],
+      "domain": "Human Resources Security",
+      "is_universal": false,
+      "order": 40
+    },
+    {
+      "question_id": "gq-0041",
+      "text": "Do you have written usage restrictions and implementation guidance for technologies that could cause significant damage if misused?",
+      "control_ids": [
+        "HRS-05.3"
+      ],
+      "domain": "Human Resources Security",
+      "is_universal": false,
+      "order": 41
+    },
+    {
+      "question_id": "gq-0042",
+      "text": "Do you have documented, approved usage policies for critical technologies that are enforced?",
+      "control_ids": [
+        "HRS-05.4"
+      ],
+      "domain": "Human Resources Security",
+      "is_universal": false,
+      "order": 42
+    },
+    {
+      "question_id": "gq-0043",
+      "text": "You mentioned you use Microsoft Intune—do you enforce security settings and restrictions on mobile devices that access company systems?",
+      "control_ids": [
+        "HRS-05.5"
+      ],
+      "domain": "Human Resources Security",
+      "is_universal": false,
+      "order": 43
+    },
+    {
+      "question_id": "gq-0044",
+      "text": "Do all employees receive security policy familiarization on a recurring basis and formally acknowledge the policies?",
+      "control_ids": [
+        "HRS-05.7"
+      ],
+      "domain": "Human Resources Security",
+      "is_universal": false,
+      "order": 44
+    },
+    {
+      "question_id": "gq-0045",
+      "text": "Do you have role-based access control set up in Microsoft Entra ID so each employee only gets access to the systems and data their specific job role requires?",
+      "control_ids": [
+        "IAC-08"
+      ],
+      "domain": "Identification & Authentication",
+      "is_universal": false,
+      "order": 45
+    },
+    {
+      "question_id": "gq-0046",
+      "text": "Do you have a documented data breach response procedure for incidents involving unauthorized disclosure of sensitive or regulated data, including any required legal, regulatory, or contractual notifications?",
+      "control_ids": [
+        "IRO-04.1"
+      ],
+      "domain": "Incident Response",
+      "is_universal": false,
+      "order": 46
+    },
+    {
+      "question_id": "gq-0047",
+      "text": "Do you maintain an incident log or tracker that documents cybersecurity and data protection incidents and provides status updates to internal stakeholders until resolution?",
+      "control_ids": [
+        "IRO-09"
+      ],
+      "domain": "Incident Response",
+      "is_universal": false,
+      "order": 47
+    },
+    {
+      "question_id": "gq-0048",
+      "text": "Do you have notification procedures to report cybersecurity incidents in a timely manner to internal stakeholders, affected clients and third parties, and regulatory authorities?",
+      "control_ids": [
+        "IRO-10"
+      ],
+      "domain": "Incident Response",
+      "is_universal": false,
+      "order": 48
+    },
+    {
+      "question_id": "gq-0049",
+      "text": "Do you have a procedure to ensure incidents involving sensitive or regulated data are reported to required parties within the required timeframes?",
+      "control_ids": [
+        "IRO-10.2"
+      ],
+      "domain": "Incident Response",
+      "is_universal": false,
+      "order": 49
+    },
+    {
+      "question_id": "gq-0050",
+      "text": "Do you have a written data protection policy that covers how you collect, use, store, share, and delete personal data throughout its lifecycle?",
+      "control_ids": [
+        "PRI-01"
+      ],
+      "domain": "Data Privacy",
+      "is_universal": false,
+      "order": 50
+    },
+    {
+      "question_id": "gq-0051",
+      "text": "Do you have a named Data Protection Officer or privacy lead with relevant qualifications who is involved in decisions about how personal data is collected, used, shared, and deleted?",
+      "control_ids": [
+        "PRI-01.4"
+      ],
+      "domain": "Data Privacy",
+      "is_universal": false,
+      "order": 51
+    },
+    {
+      "question_id": "gq-0052",
+      "text": "Do you have written data sharing agreements with external parties that legally bind them regarding how they handle personal data?",
+      "control_ids": [
+        "PRI-01.5"
+      ],
+      "domain": "Data Privacy",
+      "is_universal": false,
+      "order": 52
+    },
+    {
+      "question_id": "gq-0053",
+      "text": "Do you protect personal data with both logical safeguards (e.g., passwords, encryption) and physical safeguards (e.g., locked rooms or devices)?",
+      "control_ids": [
+        "PRI-01.6"
+      ],
+      "domain": "Data Privacy",
+      "is_universal": false,
+      "order": 53
+    },
+    {
+      "question_id": "gq-0054",
+      "text": "Do you have a privacy notice that is provided to individuals when they first interact with you, clearly explains how personal data is handled, and is reviewed and updated periodically with prior versions retained?",
+      "control_ids": [
+        "PRI-02"
+      ],
+      "domain": "Data Privacy",
+      "is_universal": false,
+      "order": 54
+    },
+    {
+      "question_id": "gq-0055",
+      "text": "Does your privacy notice identify the specific purposes for which you collect and use personal data?",
+      "control_ids": [
+        "PRI-02.1"
+      ],
+      "domain": "Data Privacy",
+      "is_universal": false,
+      "order": 55
+    },
+    {
+      "question_id": "gq-0056",
+      "text": "Do you obtain consent from individuals before collecting their personal data, provide a plain-language explanation of privacy risks, and include a way for them to decline?",
+      "control_ids": [
+        "PRI-03"
+      ],
+      "domain": "Data Privacy",
+      "is_universal": false,
+      "order": 56
+    },
+    {
+      "question_id": "gq-0057",
+      "text": "Do you allow individuals to authorize another person or entity (such as an agent or proxy) to make privacy decisions on their behalf?",
+      "control_ids": [
+        "PRI-03.6"
+      ],
+      "domain": "Data Privacy",
+      "is_universal": false,
+      "order": 57
+    },
+    {
+      "question_id": "gq-0058",
+      "text": "Do you have a documented retention schedule or policy that requires stopping use of personal data when it is no longer needed for business purposes, when the retention period expires, or when an individual withdraws consent?",
+      "control_ids": [
+        "PRI-03.9"
+      ],
+      "domain": "Data Privacy",
+      "is_universal": false,
+      "order": 58
+    },
+    {
+      "question_id": "gq-0059",
+      "text": "Do you notify individuals when you erase their personal data, correct inaccurate data, or restrict processing of their data?",
+      "control_ids": [
+        "PRI-03.11"
+      ],
+      "domain": "Data Privacy",
+      "is_universal": false,
+      "order": 59
+    },
+    {
+      "question_id": "gq-0060",
+      "text": "Do you have a data privacy notice that limits the personal data you collect to what is adequate, relevant and necessary for the stated purposes, and that addresses collecting data from minors only with parental consent?",
+      "control_ids": [
+        "PRI-04"
+      ],
+      "domain": "Data Privacy",
+      "is_universal": false,
+      "order": 60
+    },
+    {
+      "question_id": "gq-0061",
+      "text": "Do you maintain a record or register that documents the legal basis (for example, consent, contract, or legal obligation) for each type of personal data you collect and process?",
+      "control_ids": [
+        "PRI-04.1"
+      ],
+      "domain": "Data Privacy",
+      "is_universal": false,
+      "order": 61
+    },
+    {
+      "question_id": "gq-0062",
+      "text": "Do you have a written retention schedule for personal data, and do you securely delete or anonymise it when the retention period ends, including copies and archived records?",
+      "control_ids": [
+        "PRI-05"
+      ],
+      "domain": "Data Privacy",
+      "is_universal": false,
+      "order": 62
+    },
+    {
+      "question_id": "gq-0063",
+      "text": "Do you have a procedure to keep personal data accurate and up to date, including correcting inaccuracies when they are identified or reported?",
+      "control_ids": [
+        "PRI-05.2"
+      ],
+      "domain": "Data Privacy",
+      "is_universal": false,
+      "order": 63
+    },
+    {
+      "question_id": "gq-0064",
+      "text": "You indicated you are unsure whether you handle sensitive personal data. Do you have any specific data handling and protection requirements for sensitive categories such as health, financial, or children's data?",
+      "control_ids": [
+        "PRI-05.7"
+      ],
+      "domain": "Data Privacy",
+      "is_universal": false,
+      "order": 64
+    },
+    {
+      "question_id": "gq-0065",
+      "text": "Do you maintain a data subject request procedure that lets individuals access their personal data, obtain details about how it is collected and used, and request correction, deletion, or restriction of processing?",
+      "control_ids": [
+        "PRI-06"
+      ],
+      "domain": "Data Privacy",
+      "is_universal": false,
+      "order": 65
+    },
+    {
+      "question_id": "gq-0066",
+      "text": "Do you have a formal process for responding to data subject requests, complaints, concerns, or questions about personal data within a defined timeframe?",
+      "control_ids": [
+        "PRI-06.4"
+      ],
+      "domain": "Data Privacy",
+      "is_universal": false,
+      "order": 66
+    },
+    {
+      "question_id": "gq-0067",
+      "text": "Do you have a deletion process that ensures personal data is erased when an individual requests it, unless you are legally required to keep it?",
+      "control_ids": [
+        "PRI-06.5"
+      ],
+      "domain": "Data Privacy",
+      "is_universal": false,
+      "order": 67
+    },
+    {
+      "question_id": "gq-0068",
+      "text": "Do you provide personal data in a portable, machine-readable format (such as CSV or JSON) when an individual requests a copy?",
+      "control_ids": [
+        "PRI-06.7"
+      ],
+      "domain": "Data Privacy",
+      "is_universal": false,
+      "order": 68
+    },
+    {
+      "question_id": "gq-0069",
+      "text": "Do your contracts with vendors and service providers include data privacy requirements and assign them specific privacy responsibilities?",
+      "control_ids": [
+        "PRI-07.1"
+      ],
+      "domain": "Data Privacy",
+      "is_universal": false,
+      "order": 69
+    },
+    {
+      "question_id": "gq-0070",
+      "text": "Do you maintain a written record or register of all personal data processing activities, covering what personal data you collect, receive, process, store, transmit, share, update, or dispose of?",
+      "control_ids": [
+        "PRI-14"
+      ],
+      "domain": "Data Privacy",
+      "is_universal": false,
+      "order": 70
+    },
+    {
+      "question_id": "gq-0071",
+      "text": "Do you have a written plan or prioritized list that shows which security, compliance, and resilience projects are planned and what resources are allocated to each?",
+      "control_ids": [
+        "PRM-01"
+      ],
+      "domain": "Project & Resource Management",
+      "is_universal": false,
+      "order": 71
+    },
+    {
+      "question_id": "gq-0072",
+      "text": "Do you include security and compliance resources (such as staff, tools, and services) in your capital planning and budget requests, and do you keep a record of any exceptions where they were not included?",
+      "control_ids": [
+        "PRM-02"
+      ],
+      "domain": "Project & Resource Management",
+      "is_universal": false,
+      "order": 72
+    },
+    {
+      "question_id": "gq-0073",
+      "text": "Do you have a written information security risk management policy that sets out how you identify, assess, and manage security risks across the company?",
+      "control_ids": [
+        "RSK-01"
+      ],
+      "domain": "Risk Management",
+      "is_universal": false,
+      "order": 73
+    },
+    {
+      "question_id": "gq-0074",
+      "text": "Do you have a documented risk assessment guide that includes your risk tolerance, assumptions, constraints, and priorities for deciding which risks to accept or treat?",
+      "control_ids": [
+        "RSK-01.1"
+      ],
+      "domain": "Risk Management",
+      "is_universal": false,
+      "order": 74
+    },
+    {
+      "question_id": "gq-0075",
+      "text": "Do you maintain a system security plan that documents how each system and its data is classified, and is each classification reviewed and approved by an asset owner?",
+      "control_ids": [
+        "RSK-02"
+      ],
+      "domain": "Risk Management",
+      "is_universal": false,
+      "order": 75
+    },
+    {
+      "question_id": "gq-0076",
+      "text": "Do you keep a risk register that lists both internal and external risks, along with their descriptions and current status?",
+      "control_ids": [
+        "RSK-03"
+      ],
+      "domain": "Risk Management",
+      "is_universal": false,
+      "order": 76
+    },
+    {
+      "question_id": "gq-0077",
+      "text": "Do you perform recurring risk assessments that consider both the likelihood and potential harm of unauthorized access, use, disclosure, disruption, modification, or destruction of your systems and data?",
+      "control_ids": [
+        "RSK-04"
+      ],
+      "domain": "Risk Management",
+      "is_universal": false,
+      "order": 77
+    },
+    {
+      "question_id": "gq-0078",
+      "text": "Do you take action on identified risks and track them until they are resolved or formally accepted by management?",
+      "control_ids": [
+        "RSK-06"
+      ],
+      "domain": "Risk Management",
+      "is_universal": false,
+      "order": 78
+    },
+    {
+      "question_id": "gq-0079",
+      "text": "Do you verify and document that findings from security assessments, audits, or incidents are actually fixed or formally accepted?",
+      "control_ids": [
+        "RSK-06.1"
+      ],
+      "domain": "Risk Management",
+      "is_universal": false,
+      "order": 79
+    },
+    {
+      "question_id": "gq-0080",
+      "text": "Do you carry out a privacy risk assessment for any technology or service that stores, processes, or transmits personal data?",
+      "control_ids": [
+        "RSK-10"
+      ],
+      "domain": "Risk Management",
+      "is_universal": false,
+      "order": 80
+    },
+    {
+      "question_id": "gq-0081",
+      "text": "Do you have a security operations plan or program in place that assigns responsibility for implementing your security controls across systems and staff?",
+      "control_ids": [
+        "OPS-01"
+      ],
+      "domain": "Security Operations",
+      "is_universal": false,
+      "order": 81
+    },
+    {
+      "question_id": "gq-0082",
+      "text": "Do you maintain written Standard Operating Procedures (SOPs) or step-by-step instructions for your day-to-day operational and security tasks?",
+      "control_ids": [
+        "OPS-01.1"
+      ],
+      "domain": "Security Operations",
+      "is_universal": false,
+      "order": 82
+    },
+    {
+      "question_id": "gq-0083",
+      "text": "Do you have documented IT service management processes that define how your technology services are planned, delivered, and supported?",
+      "control_ids": [
+        "OPS-03"
+      ],
+      "domain": "Security Operations",
+      "is_universal": false,
+      "order": 83
+    },
+    {
+      "question_id": "gq-0084",
+      "text": "Do you have a formal security awareness and training programme in place (for example, assigned training modules or a written training policy)?",
+      "control_ids": [
+        "SAT-01"
+      ],
+      "domain": "Security Awareness & Training",
+      "is_universal": false,
+      "order": 84
+    },
+    {
+      "question_id": "gq-0085",
+      "text": "Do you assign security awareness training to all employees and contractors, tailored to their job functions (for example, separate training for engineering, HR, and sales)?",
+      "control_ids": [
+        "SAT-02"
+      ],
+      "domain": "Security Awareness & Training",
+      "is_universal": false,
+      "order": 85
+    },
+    {
+      "question_id": "gq-0086",
+      "text": "Do you maintain a written responsibility matrix (like a RACI/RASCI chart) that spells out which security, compliance, and resilience tasks are handled by your internal team and which are handled by each external provider you use?",
+      "control_ids": [
+        "TPM-05.4"
+      ],
+      "domain": "Third-Party Management",
+      "is_universal": false,
+      "order": 86
+    },
+    {
+      "question_id": "gq-0087",
+      "text": "Do you have a threat intelligence feed or security advisory service—such as Microsoft Defender threat alerts or Microsoft Sentinel threat intelligence—that alerts you to new vulnerabilities and attacker techniques? If yes, do you use those alerts to decide which patches or safeguards to apply?",
+      "control_ids": [
+        "THR-03"
+      ],
+      "domain": "Threat Management",
+      "is_universal": false,
+      "order": 87
+    }
+  ],
+  "answers": [
+    {
+      "question_id": "gq-0000",
+      "segments": [
+        "Yes, our IT manager handles it."
+      ],
+      "answered_at": "2026-08-21T11:48:41.153068Z"
+    },
+    {
+      "question_id": "gq-0001",
+      "segments": [
+        "[skipped]"
+      ],
+      "answered_at": "2026-08-21T11:48:41.899381Z"
+    },
+    {
+      "question_id": "gq-0002",
+      "segments": [
+        "[skipped]"
+      ],
+      "answered_at": "2026-08-21T11:48:42.599019Z"
+    },
+    {
+      "question_id": "gq-0003",
+      "segments": [
+        "[skipped]"
+      ],
+      "answered_at": "2026-08-21T11:48:43.339721Z"
+    },
+    {
+      "question_id": "gq-0004",
+      "segments": [
+        "[skipped]"
+      ],
+      "answered_at": "2026-08-21T11:48:44.068514Z"
+    },
+    {
+      "question_id": "gq-0005",
+      "segments": [
+        "[skipped]"
+      ],
+      "answered_at": "2026-08-21T11:48:44.773177Z"
+    },
+    {
+      "question_id": "gq-0006",
+      "segments": [
+        "Yes we do that."
+      ],
+      "answered_at": "2026-08-21T11:48:45.483038Z"
+    }
+  ],
+  "current_question_id": "gq-0006",
+  "current_followup_count": 1,
+  "pending_prompt": "Can you confirm that this governance control is documented in a formal policy or charter that has been explicitly approved by management?",
+  "status": "in_progress"
+}

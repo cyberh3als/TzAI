@@ -1,0 +1,774 @@
+[
+  {
+    "finding_id": "gq-0000",
+    "question_id": "gq-0000",
+    "question_text": "Is there a designated person or role responsible for information security at your organisation (e.g. a security officer, IT manager, or outsourced provider)?",
+    "domain": null,
+    "control_ids": [],
+    "summary": "A designated IT manager is in place to oversee information security.",
+    "status": "closed",
+    "priority": "medium",
+    "suggestion": "Please upload evidence for this designated role to the evidence portal.",
+    "created_at": "2026-08-21T11:31:17.682512Z"
+  },
+  {
+    "finding_id": "gq-0001",
+    "question_id": "gq-0001",
+    "question_text": "Have you experienced any security incidents, data breaches, or significant IT outages in the past 12 months? If so, briefly describe what happened and how it was handled.",
+    "domain": null,
+    "control_ids": [],
+    "summary": "No security incidents, data breaches, or significant IT outages were reported in the past 12 months.",
+    "status": "closed",
+    "priority": "medium",
+    "suggestion": "Please upload evidence for this response to the evidence portal.",
+    "created_at": "2026-08-21T11:31:17.682512Z"
+  },
+  {
+    "finding_id": "gq-0002",
+    "question_id": "gq-0002",
+    "question_text": "Do employees receive any security awareness training, formal or informal, and how often?",
+    "domain": null,
+    "control_ids": [],
+    "summary": "Security awareness training is provided annually.",
+    "status": "closed",
+    "priority": "medium",
+    "suggestion": "Please upload evidence of security awareness training completion records.",
+    "created_at": "2026-08-21T11:31:17.682512Z"
+  },
+  {
+    "finding_id": "gq-0003",
+    "question_id": "gq-0003",
+    "question_text": "Do you have a written, even informal, incident response plan for handling a security incident if one occurred?",
+    "domain": null,
+    "control_ids": [],
+    "summary": "Client confirms having an incident response plan.",
+    "status": "closed",
+    "priority": "medium",
+    "suggestion": "Please upload the incident response plan to the evidence portal.",
+    "created_at": "2026-08-21T11:31:17.682512Z"
+  },
+  {
+    "finding_id": "gq-0004",
+    "question_id": "gq-0004",
+    "question_text": "How do you vet and manage third-party vendors or contractors who can access your systems or data?",
+    "domain": null,
+    "control_ids": [],
+    "summary": "No vendor vetting or management process is in place for third-party access to systems or data.",
+    "status": "open",
+    "priority": "medium",
+    "suggestion": "Implement a vendor risk assessment process and access review for third-party contractors.",
+    "created_at": "2026-08-21T11:31:17.682512Z"
+  },
+  {
+    "finding_id": "gq-0005",
+    "question_id": "gq-0005",
+    "question_text": "Is there a written information security policy, even brief, that employees are aware of?",
+    "domain": null,
+    "control_ids": [],
+    "summary": "No written information security policy exists or has been communicated to employees.",
+    "status": "open",
+    "priority": "medium",
+    "suggestion": "Create a written information security policy and communicate it to all employees.",
+    "created_at": "2026-08-21T11:31:17.682512Z"
+  },
+  {
+    "finding_id": "gq-0006",
+    "question_id": "gq-0006",
+    "question_text": "Do you have a governance framework or structured set of controls in place to manage security, compliance, and resilience across the organization?",
+    "domain": "Security, Compliance & Resilience Governance",
+    "control_ids": [
+      "GOV-01"
+    ],
+    "summary": "No governance framework or structured set of controls is in place for security, compliance, and resilience.",
+    "status": "open",
+    "priority": "high",
+    "suggestion": "Implement a security governance framework aligned to NIST CSF 2.0",
+    "created_at": "2026-08-21T11:31:17.682512Z"
+  },
+  {
+    "finding_id": "gq-0007",
+    "question_id": "gq-0007",
+    "question_text": "Do you have a security steering committee or advisory board, with both business and cybersecurity/data protection leadership, that meets formally on a regular basis?",
+    "domain": "Security, Compliance & Resilience Governance",
+    "control_ids": [
+      "GOV-01.1"
+    ],
+    "summary": "The security committee is limited to an IT manager and does not include business or data protection leadership.",
+    "status": "open",
+    "priority": "low",
+    "suggestion": "Establish a security steering committee with business and data protection representation, e.g., engage a vCISO or external security advisor.",
+    "created_at": "2026-08-21T11:31:17.682512Z"
+  },
+  {
+    "finding_id": "gq-0008",
+    "question_id": "gq-0008",
+    "question_text": "Do you provide regular security and compliance status reports and recommendations to executive decision-makers on matters that could materially affect the business?",
+    "domain": "Security, Compliance & Resilience Governance",
+    "control_ids": [
+      "GOV-01.2"
+    ],
+    "summary": "Governance oversight reporting and recommendations to executive decision-makers are not in place.",
+    "status": "open",
+    "priority": "low",
+    "suggestion": "Implement a quarterly security and compliance metrics report to executive leadership.",
+    "created_at": "2026-08-21T11:31:17.682512Z"
+  },
+  {
+    "finding_id": "gq-0009",
+    "question_id": "gq-0009",
+    "question_text": "Do you maintain written security, compliance, and resilience policies and procedures, and are they communicated or made available to all employees?",
+    "domain": "Security, Compliance & Resilience Governance",
+    "control_ids": [
+      "GOV-02"
+    ],
+    "summary": "Written security, compliance, and resilience policies and procedures are not in place and have not been communicated to employees.",
+    "status": "open",
+    "priority": "high",
+    "suggestion": "Create and communicate written security, compliance, and resilience policies to all employees.",
+    "created_at": "2026-08-21T11:31:17.682512Z"
+  },
+  {
+    "finding_id": "gq-0010",
+    "question_id": "gq-0010",
+    "question_text": "Do you review your security and compliance policies and program at least annually, or sooner if there is a significant business or technology change?",
+    "domain": "Security, Compliance & Resilience Governance",
+    "control_ids": [
+      "GOV-03"
+    ],
+    "summary": "Security and compliance policies and program are not reviewed at planned intervals.",
+    "status": "open",
+    "priority": "low",
+    "suggestion": "Establish an annual security and compliance program review process and document reviews in a review log.",
+    "created_at": "2026-08-21T11:31:17.682512Z"
+  },
+  {
+    "finding_id": "gq-0011",
+    "question_id": "gq-0011",
+    "question_text": "Is there a named person or role with clear responsibility and dedicated resources to centrally manage and coordinate your security and compliance program?",
+    "domain": "Security, Compliance & Resilience Governance",
+    "control_ids": [
+      "GOV-04"
+    ],
+    "summary": "No named person or role has clear responsibility and resources to centrally manage the security and compliance program.",
+    "status": "open",
+    "priority": "high",
+    "suggestion": "Assign a named security owner (e.g., vCISO or security manager) with defined responsibilities and resources for the security program.",
+    "created_at": "2026-08-21T11:31:17.682512Z"
+  },
+  {
+    "finding_id": "gq-0012",
+    "question_id": "gq-0012",
+    "question_text": "Do you define and monitor performance measures for your security and compliance program, such as policy acknowledgement rates, training completion, or incident response times?",
+    "domain": "Security, Compliance & Resilience Governance",
+    "control_ids": [
+      "GOV-05"
+    ],
+    "summary": "Security and compliance program performance measures are not defined or monitored.",
+    "status": "open",
+    "priority": "low",
+    "suggestion": "Create a simple security metrics dashboard to track policy acknowledgement, training completion and incident response times. Eg Google Looker Studio, Power BI free tier",
+    "created_at": "2026-08-21T11:31:17.682512Z"
+  },
+  {
+    "finding_id": "gq-0013",
+    "question_id": "gq-0013",
+    "question_text": "Do you have a written statement of your business mission and the security/compliance context for your products or services?",
+    "domain": "Security, Compliance & Resilience Governance",
+    "control_ids": [
+      "GOV-08"
+    ],
+    "summary": "No written mission statement or business context document is in place.",
+    "status": "open",
+    "priority": "low",
+    "suggestion": "Create a written mission statement and business context document; review annually.",
+    "created_at": "2026-08-21T11:31:17.682512Z"
+  },
+  {
+    "finding_id": "gq-0014",
+    "question_id": "gq-0014",
+    "question_text": "Have you established written control objectives that are used to select and manage your internal security and compliance controls?",
+    "domain": "Security, Compliance & Resilience Governance",
+    "control_ids": [
+      "GOV-09"
+    ],
+    "summary": "Written control objectives have not been established as the basis for selecting and managing security and compliance controls.",
+    "status": "open",
+    "priority": "low",
+    "suggestion": "Create written control objectives aligned with applicable legal, regulatory, and contractual requirements.",
+    "created_at": "2026-08-21T11:31:17.682512Z"
+  },
+  {
+    "finding_id": "gq-0015",
+    "question_id": "gq-0015",
+    "question_text": "Do you assign data or process owners who are responsible for continuously monitoring their systems, applications, and data for security risks and for confirming that controls are working as intended?",
+    "domain": "Security, Compliance & Resilience Governance",
+    "control_ids": [
+      "GOV-15.5"
+    ],
+    "summary": "Data and process owners are not assigned to monitor systems, applications and data for security risks.",
+    "status": "open",
+    "priority": "low",
+    "suggestion": "Assign data/process owners and define their ongoing monitoring responsibilities for systems, applications and data.",
+    "created_at": "2026-08-21T11:31:17.682512Z"
+  },
+  {
+    "finding_id": "gq-0016",
+    "question_id": "gq-0016",
+    "question_text": "Do you maintain a current inventory of your critical systems, applications, and data that assigns a named owner or responsible stakeholder to each item?",
+    "domain": "Asset Management",
+    "control_ids": [
+      "AST-01.2"
+    ],
+    "summary": "No inventory of critical systems, applications, and data with named owners or stakeholders is maintained.",
+    "status": "open",
+    "priority": "low",
+    "suggestion": "Create an inventory of critical systems, applications, and data with named owners in Google Sheets or a simple asset register.",
+    "created_at": "2026-08-21T11:31:17.682512Z"
+  },
+  {
+    "finding_id": "gq-0017",
+    "question_id": "gq-0017",
+    "question_text": "Do you have a documented method to categorize your systems, applications, and personnel (including third parties) so you can determine which security requirements apply to each?",
+    "domain": "Asset Management",
+    "control_ids": [
+      "AST-04.1"
+    ],
+    "summary": "There is no documented method to categorize systems, applications, and personnel including third parties for determining applicable security requirements.",
+    "status": "open",
+    "priority": "medium",
+    "suggestion": "Implement an asset inventory and classification scheme covering systems, applications, and personnel. Eg Google Sheets",
+    "created_at": "2026-08-21T11:31:17.682512Z"
+  },
+  {
+    "finding_id": "gq-0018",
+    "question_id": "gq-0018",
+    "question_text": "Do you have a documented change management policy or procedure that defines how changes to production systems are requested, reviewed, approved, and tracked?",
+    "domain": "Change Management",
+    "control_ids": [
+      "CHG-01"
+    ],
+    "summary": "There is no documented change management policy or procedure for requesting, reviewing, approving, and tracking production system changes.",
+    "status": "open",
+    "priority": "high",
+    "suggestion": "Implement a documented change management policy and approval workflow for production changes.",
+    "created_at": "2026-08-21T11:31:17.682512Z"
+  },
+  {
+    "finding_id": "gq-0019",
+    "question_id": "gq-0019",
+    "question_text": "Do you have a Customer Responsibility Matrix (CRM) document that outlines which security responsibilities AWS handles and which your company handles?",
+    "domain": "Cloud Security",
+    "control_ids": [
+      "CLD-06.1"
+    ],
+    "summary": "No Customer Responsibility Matrix (CRM) exists to delineate AWS and company security responsibilities.",
+    "status": "open",
+    "priority": "low",
+    "suggestion": "Create a Customer Responsibility Matrix (CRM) documenting AWS vs company security responsibilities, aligned to E-CPL-03.",
+    "created_at": "2026-08-21T11:31:17.682512Z"
+  },
+  {
+    "finding_id": "gq-0020",
+    "question_id": "gq-0020",
+    "question_text": "Do you maintain a list or register of all laws, regulations, and contractual security requirements that apply to your business, such as Malaysian data protection law and any customer contract security terms?",
+    "domain": "Compliance",
+    "control_ids": [
+      "CPL-01"
+    ],
+    "summary": "No register or list of applicable laws, regulations, and contractual security requirements is maintained.",
+    "status": "open",
+    "priority": "high",
+    "suggestion": "Create a compliance register tracking Malaysian PDPA and customer contract security requirements.",
+    "created_at": "2026-08-21T11:31:17.682512Z"
+  },
+  {
+    "finding_id": "gq-0021",
+    "question_id": "gq-0021",
+    "question_text": "Do you keep a log or register of any instances where you failed to meet a legal, regulatory, or contractual requirement, and do you review that log to decide on corrective actions?",
+    "domain": "Compliance",
+    "control_ids": [
+      "CPL-01.1"
+    ],
+    "summary": "No log or register exists to document and review instances of non-compliance with legal, regulatory or contractual obligations.",
+    "status": "open",
+    "priority": "medium",
+    "suggestion": "Implement a compliance register (e.g., spreadsheet or GRC tool like SimpleRisk) to log non-compliance instances and track corrective actions.",
+    "created_at": "2026-08-21T11:31:17.682512Z"
+  },
+  {
+    "finding_id": "gq-0022",
+    "question_id": "gq-0022",
+    "question_text": "Do you maintain a document or spreadsheet that maps which of your security controls satisfy each legal, regulatory, or contractual requirement you must meet?",
+    "domain": "Compliance",
+    "control_ids": [
+      "CPL-01.2"
+    ],
+    "summary": "The organization does not maintain a mapping of security controls to legal, regulatory, or contractual requirements.",
+    "status": "open",
+    "priority": "medium",
+    "suggestion": "Create a compliance mapping spreadsheet linking controls to PDPA Malaysia and contractual obligations.",
+    "created_at": "2026-08-21T11:31:17.682512Z"
+  },
+  {
+    "finding_id": "gq-0023",
+    "question_id": "gq-0023",
+    "question_text": "Is there a named person, role, or committee responsible for overseeing your security and compliance programme, and do they report to executive leadership?",
+    "domain": "Compliance",
+    "control_ids": [
+      "CPL-02"
+    ],
+    "summary": "No named person, role, or committee oversees the security and compliance programme or reports to executive leadership.",
+    "status": "open",
+    "priority": "high",
+    "suggestion": "Appoint a security and compliance owner (e.g., Head of Engineering or Operations) with a documented reporting line to executive leadership.",
+    "created_at": "2026-08-21T11:31:17.682512Z"
+  },
+  {
+    "finding_id": "gq-0024",
+    "question_id": "gq-0024",
+    "question_text": "Do you have someone assigned to audit your technology and information management practices and report findings to senior management?",
+    "domain": "Compliance",
+    "control_ids": [
+      "CPL-02.1"
+    ],
+    "summary": "No internal audit function or assigned person exists to review technology and information management practices and report to senior management.",
+    "status": "open",
+    "priority": "low",
+    "suggestion": "Assign an internal audit owner and create an annual audit plan reporting to senior management.",
+    "created_at": "2026-08-21T11:31:17.682512Z"
+  },
+  {
+    "finding_id": "gq-0025",
+    "question_id": "gq-0025",
+    "question_text": "Do you perform regular checks or audits to confirm that your systems, applications, and data meet your security and compliance policies?",
+    "domain": "Compliance",
+    "control_ids": [
+      "CPL-03"
+    ],
+    "summary": "Regular checks or audits to confirm systems, applications, and data meet security and compliance policies are not in place.",
+    "status": "open",
+    "priority": "medium",
+    "suggestion": "Implement periodic security compliance reviews using a GRC tool like SimpleRisk or SCFConnect.",
+    "created_at": "2026-08-21T11:31:17.682512Z"
+  },
+  {
+    "finding_id": "gq-0026",
+    "question_id": "gq-0026",
+    "question_text": "Do you have a written personnel security policy that covers how employees and contractors are screened, trained, and managed for security?",
+    "domain": "Human Resources Security",
+    "control_ids": [
+      "HRS-01"
+    ],
+    "summary": "No written personnel security policy exists covering employee and contractor screening, training, and management.",
+    "status": "open",
+    "priority": "medium",
+    "suggestion": "Create a personnel security policy covering background checks, onboarding checklists, and security awareness training.",
+    "created_at": "2026-08-21T11:31:17.682512Z"
+  },
+  {
+    "finding_id": "gq-0027",
+    "question_id": "gq-0027",
+    "question_text": "Do you assign a risk level to each job position and define screening criteria for candidates before they are hired or contracted?",
+    "domain": "Human Resources Security",
+    "control_ids": [
+      "HRS-02"
+    ],
+    "summary": "Personnel security risk levels and screening criteria for candidates are not in place.",
+    "status": "open",
+    "priority": "medium",
+    "suggestion": "Implement background checks and a security onboarding checklist for all positions.",
+    "created_at": "2026-08-21T11:31:17.682512Z"
+  },
+  {
+    "finding_id": "gq-0028",
+    "question_id": "gq-0028",
+    "question_text": "Do you have documented cybersecurity roles and responsibilities for each employee or role?",
+    "domain": "Human Resources Security",
+    "control_ids": [
+      "HRS-03"
+    ],
+    "summary": "Documented cybersecurity roles and responsibilities are not in place.",
+    "status": "open",
+    "priority": "high",
+    "suggestion": "Create a RASCI matrix documenting cybersecurity roles and responsibilities for all personnel.",
+    "created_at": "2026-08-21T11:31:17.682512Z"
+  },
+  {
+    "finding_id": "gq-0029",
+    "question_id": "gq-0029",
+    "question_text": "Do you provide employees with written information about their security responsibilities, such as in an employee handbook or signed acknowledgment?",
+    "domain": "Human Resources Security",
+    "control_ids": [
+      "HRS-03.1"
+    ],
+    "summary": "No written information about employee security responsibilities is provided to staff.",
+    "status": "open",
+    "priority": "medium",
+    "suggestion": "Create an Acceptable Use Policy and employee handbook section covering security responsibilities, and obtain signed acknowledgments.",
+    "created_at": "2026-08-21T11:31:17.682512Z"
+  },
+  {
+    "finding_id": "gq-0030",
+    "question_id": "gq-0030",
+    "question_text": "Do you require security-related positions to be filled by individuals with relevant certifications or proven skills?",
+    "domain": "Human Resources Security",
+    "control_ids": [
+      "HRS-03.2"
+    ],
+    "summary": "Security-related positions are not required to be filled by individuals with relevant certifications or proven skills.",
+    "status": "open",
+    "priority": "medium",
+    "suggestion": "Implement hiring requirements for security roles to validate certifications or proven skills.",
+    "created_at": "2026-08-21T11:31:17.682512Z"
+  },
+  {
+    "finding_id": "gq-0031",
+    "question_id": "gq-0031",
+    "question_text": "Do you conduct background checks or reference checks on candidates before granting them access to company systems and data?",
+    "domain": "Human Resources Security",
+    "control_ids": [
+      "HRS-04"
+    ],
+    "summary": "Pre-employment background checks are not conducted before granting access to company systems and data.",
+    "status": "open",
+    "priority": "high",
+    "suggestion": "Implement a pre-employment background screening process (criminal, education, employment) before granting access to systems.",
+    "created_at": "2026-08-21T11:31:17.682512Z"
+  },
+  {
+    "finding_id": "gq-0032",
+    "question_id": "gq-0032",
+    "question_text": "Do you train employees on how to properly handle personal data and other sensitive information they work with?",
+    "domain": "Human Resources Security",
+    "control_ids": [
+      "HRS-04.2"
+    ],
+    "summary": "Employees are not formally trained on proper data handling practices for personal data.",
+    "status": "open",
+    "priority": "low",
+    "suggestion": "Implement formal data handling training for all employees handling personal data.",
+    "created_at": "2026-08-21T11:31:17.682512Z"
+  },
+  {
+    "finding_id": "gq-0033",
+    "question_id": "gq-0033",
+    "question_text": "Do you require all employees and contractors to follow cybersecurity and data protection rules as a condition of employment, such as through a signed code of conduct or policy acknowledgment?",
+    "domain": "Human Resources Security",
+    "control_ids": [
+      "HRS-05"
+    ],
+    "summary": "Employees and contractors are not required to acknowledge or follow cybersecurity and data protection rules as a condition of employment.",
+    "status": "open",
+    "priority": "high",
+    "suggestion": "Create Acceptable Use Policy and require signed acknowledgement from all employees and contractors",
+    "created_at": "2026-08-21T11:31:17.682512Z"
+  },
+  {
+    "finding_id": "gq-0034",
+    "question_id": "gq-0034",
+    "question_text": "Do you have an acceptable use policy for company technology that defines acceptable and unacceptable behavior and lists consequences for violations?",
+    "domain": "Human Resources Security",
+    "control_ids": [
+      "HRS-05.1"
+    ],
+    "summary": "An acceptable use policy defining acceptable and unacceptable technology behavior and consequences for violations is not in place.",
+    "status": "open",
+    "priority": "medium",
+    "suggestion": "Create an acceptable use policy and include it in employee onboarding training",
+    "created_at": "2026-08-21T11:31:17.682512Z"
+  },
+  {
+    "finding_id": "gq-0035",
+    "question_id": "gq-0035",
+    "question_text": "Do your acceptable use rules explicitly prohibit sharing account credentials, posting company information on social media, or using social media in ways that could harm the business?",
+    "domain": "Human Resources Security",
+    "control_ids": [
+      "HRS-05.2"
+    ],
+    "summary": "Acceptable use rules do not explicitly prohibit sharing account credentials, posting company information on social media, or harmful social media use.",
+    "status": "open",
+    "priority": "medium",
+    "suggestion": "Create an Acceptable Use Policy that explicitly prohibits sharing account credentials, posting company information on social media, and using social media in ways that could harm the business.",
+    "created_at": "2026-08-21T11:31:17.682512Z"
+  },
+  {
+    "finding_id": "gq-0036",
+    "question_id": "gq-0036",
+    "question_text": "Do you have usage restrictions for technologies that could cause significant damage if misused, such as administrative tools or cloud infrastructure?",
+    "domain": "Human Resources Security",
+    "control_ids": [
+      "HRS-05.3"
+    ],
+    "summary": "Usage restrictions for high-risk technologies like administrative tools and cloud infrastructure are not established.",
+    "status": "open",
+    "priority": "medium",
+    "suggestion": "Document and communicate an Acceptable Use Policy covering administrative tools and cloud infrastructure.",
+    "created_at": "2026-08-21T11:31:17.682512Z"
+  },
+  {
+    "finding_id": "gq-0037",
+    "question_id": "gq-0037",
+    "question_text": "Do you have written usage policies that specifically govern critical technologies in your environment, like Google Workspace administrator tools and AWS?",
+    "domain": "Human Resources Security",
+    "control_ids": [
+      "HRS-05.4"
+    ],
+    "summary": "Written usage policies governing critical technologies like Google Workspace administrator tools and AWS are not in place.",
+    "status": "open",
+    "priority": "medium",
+    "suggestion": "Create acceptable use policies for Google Workspace administrator tools and AWS.",
+    "created_at": "2026-08-21T11:31:17.682512Z"
+  },
+  {
+    "finding_id": "gq-0038",
+    "question_id": "gq-0038",
+    "question_text": "Do you have a mobile device policy that addresses how employees can access company systems from personal or company-owned phones/tablets?",
+    "domain": "Human Resources Security",
+    "control_ids": [
+      "HRS-05.5"
+    ],
+    "summary": "The client has no mobile device policy addressing personal or company-owned device access to company systems.",
+    "status": "open",
+    "priority": "medium",
+    "suggestion": "Implement a mobile device policy and enforce it through Google Workspace endpoint management.",
+    "created_at": "2026-08-21T11:31:17.682512Z"
+  },
+  {
+    "finding_id": "gq-0039",
+    "question_id": "gq-0039",
+    "question_text": "Do you require employees to review and formally acknowledge your security policies at least once a year?",
+    "domain": "Human Resources Security",
+    "control_ids": [
+      "HRS-05.7"
+    ],
+    "summary": "Employees are not required to review and formally acknowledge security policies annually.",
+    "status": "open",
+    "priority": "medium",
+    "suggestion": "Implement an annual security policy review and acknowledgement process and track completion.",
+    "created_at": "2026-08-21T11:31:17.682512Z"
+  },
+  {
+    "finding_id": "gq-0040",
+    "question_id": "gq-0040",
+    "question_text": "Do you maintain a portfolio plan or register of your security, compliance, and resilience projects that shows allocated resources and priorities?",
+    "domain": "Project & Resource Management",
+    "control_ids": [
+      "PRM-01"
+    ],
+    "summary": "No portfolio plan or register of security, compliance, and resilience projects is in place.",
+    "status": "open",
+    "priority": "medium",
+    "suggestion": "Create a security project portfolio register with allocated resources and priorities.",
+    "created_at": "2026-08-21T11:31:17.682512Z"
+  },
+  {
+    "finding_id": "gq-0041",
+    "question_id": "gq-0041",
+    "question_text": "Do you have a budget or capital planning process that includes funding requests for your security, compliance, and resilience work? If yes, do you document exceptions when a request is not funded?",
+    "domain": "Project & Resource Management",
+    "control_ids": [
+      "PRM-02"
+    ],
+    "summary": "No capital planning process is in place for security, compliance, and resilience funding requests or for documenting exceptions.",
+    "status": "open",
+    "priority": "low",
+    "suggestion": "Implement an annual budget planning process that includes security and compliance funding requests and documents unfunded exceptions.",
+    "created_at": "2026-08-21T11:31:17.682512Z"
+  },
+  {
+    "finding_id": "gq-0042",
+    "question_id": "gq-0042",
+    "question_text": "Do you have a written risk management policy that defines how cybersecurity risks are identified, assessed, and managed in line with recognized industry standards?",
+    "domain": "Risk Management",
+    "control_ids": [
+      "RSK-01"
+    ],
+    "summary": "No written risk management policy or risk management program is in place.",
+    "status": "open",
+    "priority": "high",
+    "suggestion": "Create a written risk management policy aligned with ISO 27001 or NIST CSF.",
+    "created_at": "2026-08-21T11:31:17.682512Z"
+  },
+  {
+    "finding_id": "gq-0043",
+    "question_id": "gq-0043",
+    "question_text": "Do you have a documented risk tolerance statement that identifies your acceptable level of risk, including the key assumptions, constraints, and trade-offs you consider when making risk decisions?",
+    "domain": "Risk Management",
+    "control_ids": [
+      "RSK-01.1"
+    ],
+    "summary": "No documented risk tolerance statement or identified assumptions, constraints, and trade-offs for risk management.",
+    "status": "open",
+    "priority": "medium",
+    "suggestion": "Create a documented risk tolerance statement and risk management program.",
+    "created_at": "2026-08-21T11:31:17.682512Z"
+  },
+  {
+    "finding_id": "gq-0044",
+    "question_id": "gq-0044",
+    "question_text": "Do you maintain an inventory of technology assets, applications, services, and data that includes a security classification or sensitivity level for each, and is each classification approved by the asset owner?",
+    "domain": "Risk Management",
+    "control_ids": [
+      "RSK-02"
+    ],
+    "summary": "Technology assets, applications, services, and data are not inventoried with security classifications or asset owner approval.",
+    "status": "open",
+    "priority": "medium",
+    "suggestion": "Create an asset inventory with security classifications and owner approval, e.g., in Google Sheets.",
+    "created_at": "2026-08-21T11:31:17.682512Z"
+  },
+  {
+    "finding_id": "gq-0045",
+    "question_id": "gq-0045",
+    "question_text": "Do you keep a risk register that lists both internal and external risks to your organization and systems?",
+    "domain": "Risk Management",
+    "control_ids": [
+      "RSK-03"
+    ],
+    "summary": "No risk register exists to document internal and external risks.",
+    "status": "open",
+    "priority": "medium",
+    "suggestion": "Create a risk register listing internal and external risks.",
+    "created_at": "2026-08-21T11:31:17.682512Z"
+  },
+  {
+    "finding_id": "gq-0046",
+    "question_id": "gq-0046",
+    "question_text": "Do you perform a formal risk assessment at least annually that evaluates both the likelihood and potential impact of threats such as unauthorized access or data breaches?",
+    "domain": "Risk Management",
+    "control_ids": [
+      "RSK-04"
+    ],
+    "summary": "Formal recurring risk assessments that evaluate likelihood and impact are not in place.",
+    "status": "open",
+    "priority": "high",
+    "suggestion": "Implement an annual risk assessment process and maintain a risk register.",
+    "created_at": "2026-08-21T11:31:17.682512Z"
+  },
+  {
+    "finding_id": "gq-0047",
+    "question_id": "gq-0047",
+    "question_text": "Do you have a documented risk treatment plan that shows how identified risks are either mitigated, transferred, avoided, or accepted to bring them within your risk tolerance?",
+    "domain": "Risk Management",
+    "control_ids": [
+      "RSK-06"
+    ],
+    "summary": "A documented risk treatment plan is not in place.",
+    "status": "open",
+    "priority": "high",
+    "suggestion": "Create a risk register and risk treatment plan to track mitigation, transfer, avoidance, or acceptance decisions.",
+    "created_at": "2026-08-21T11:31:17.682512Z"
+  },
+  {
+    "finding_id": "gq-0048",
+    "question_id": "gq-0048",
+    "question_text": "Do you maintain a log or register of findings from risk assessments, audits, and security incidents that tracks each remediation action through to completion?",
+    "domain": "Risk Management",
+    "control_ids": [
+      "RSK-06.1"
+    ],
+    "summary": "Remediation findings from assessments, audits, and incidents are not logged or tracked to completion.",
+    "status": "open",
+    "priority": "medium",
+    "suggestion": "Implement a risk register in Jira or Google Sheets to track findings, owners, and remediation status through completion.",
+    "created_at": "2026-08-21T11:31:17.682512Z"
+  },
+  {
+    "finding_id": "gq-0049",
+    "question_id": "gq-0049",
+    "question_text": "Do you have a designated person or team responsible for implementing operational security controls across your business?",
+    "domain": "Security Operations",
+    "control_ids": [
+      "OPS-01"
+    ],
+    "summary": "No designated person or team is responsible for implementing operational security controls.",
+    "status": "open",
+    "priority": "low",
+    "suggestion": "Assign a designated person or team to own operational security controls and document SOPs.",
+    "created_at": "2026-08-21T11:31:17.682512Z"
+  },
+  {
+    "finding_id": "gq-0050",
+    "question_id": "gq-0050",
+    "question_text": "Do you maintain written Standard Operating Procedures (SOPs) for your day-to-day IT and security tasks, such as user onboarding/offboarding, access changes, and incident response?",
+    "domain": "Security Operations",
+    "control_ids": [
+      "OPS-01.1"
+    ],
+    "summary": "Written Standard Operating Procedures for day-to-day IT and security tasks are not in place.",
+    "status": "open",
+    "priority": "medium",
+    "suggestion": "Create and document SOPs for user onboarding/offboarding, access changes, and incident response. Eg Google Docs, Confluence",
+    "created_at": "2026-08-21T11:31:17.682512Z"
+  },
+  {
+    "finding_id": "gq-0051",
+    "question_id": "gq-0051",
+    "question_text": "Do you have a documented IT service management policy or procedure that defines how technology services are planned, delivered, and supported, aligned with a recognized framework such as ITIL?",
+    "domain": "Security Operations",
+    "control_ids": [
+      "OPS-03"
+    ],
+    "summary": "No documented IT service management policy or procedure exists.",
+    "status": "open",
+    "priority": "low",
+    "suggestion": "Create and document an IT service management policy aligned with ITIL.",
+    "created_at": "2026-08-21T11:31:17.682512Z"
+  },
+  {
+    "finding_id": "gq-0052",
+    "question_id": "gq-0052",
+    "question_text": "Do you have a documented security awareness and training programme or policy that assigns someone responsibility for running it?",
+    "domain": "Security Awareness & Training",
+    "control_ids": [
+      "SAT-01"
+    ],
+    "summary": "No documented security awareness and training programme or policy exists, and no one is assigned responsibility for it.",
+    "status": "open",
+    "priority": "low",
+    "suggestion": "Create a security awareness and training policy and assign an owner.",
+    "created_at": "2026-08-21T11:31:17.682512Z"
+  },
+  {
+    "finding_id": "gq-0053",
+    "question_id": "gq-0053",
+    "question_text": "Do all employees and contractors receive security awareness training that is relevant to their job role, both when they join and on a regular basis?",
+    "domain": "Security Awareness & Training",
+    "control_ids": [
+      "SAT-02"
+    ],
+    "summary": "Security awareness training is not provided to employees and contractors.",
+    "status": "open",
+    "priority": "medium",
+    "suggestion": "Implement initial and annual security awareness training for all employees and contractors. Eg KnowBe4",
+    "created_at": "2026-08-21T11:31:17.682512Z"
+  },
+  {
+    "finding_id": "gq-0054",
+    "question_id": "gq-0054",
+    "question_text": "Do you have a responsibility matrix (such as a RASCI chart) that clearly assigns which security, compliance, and resilience tasks are handled by your internal team versus your external service providers?",
+    "domain": "Third-Party Management",
+    "control_ids": [
+      "TPM-05.4"
+    ],
+    "summary": "No responsibility matrix (such as a RASCI chart) exists to assign security, compliance, and resilience tasks between internal teams and external service providers.",
+    "status": "open",
+    "priority": "medium",
+    "suggestion": "Create a RASCI matrix documenting responsibilities for internal teams and external service providers.",
+    "created_at": "2026-08-21T11:31:17.682512Z"
+  },
+  {
+    "finding_id": "gq-0055",
+    "question_id": "gq-0055",
+    "question_text": "Do you subscribe to a threat intelligence feed or security advisory service (e.g., vendor security bulletins, CVE alerts) to stay informed about current vulnerabilities and attacker tactics relevant to your systems?",
+    "domain": "Threat Management",
+    "control_ids": [
+      "THR-03"
+    ],
+    "summary": "The organization does not maintain situational awareness of vulnerabilities and evolving threats.",
+    "status": "open",
+    "priority": "low",
+    "suggestion": "Subscribe to threat intelligence feeds e.g. MyCERT, US-CERT, and vendor security bulletins",
+    "created_at": "2026-08-21T11:31:17.682512Z"
+  }
+]

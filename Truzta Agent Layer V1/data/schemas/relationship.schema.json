@@ -1,0 +1,37 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://truzta.local/schemas/relationship.schema.json",
+  "title": "Truzta deterministic relationship catalog",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "catalog_version", "relationships"],
+  "properties": {
+    "schema_version": { "const": "1.0" },
+    "catalog_version": { "type": "integer", "minimum": 1 },
+    "relationships": { "type": "array", "items": { "$ref": "#/$defs/relationship" } }
+  },
+  "$defs": {
+    "relationship": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "type", "from", "to", "status", "provenance", "version"],
+      "properties": {
+        "id": { "type": "string", "format": "uuid" },
+        "type": { "enum": ["framework_maps_to_control", "control_requires_evidence", "policy_supports_control", "control_related_to_control"] },
+        "from": { "$ref": "#/$defs/reference" },
+        "to": { "$ref": "#/$defs/reference" },
+        "status": { "enum": ["proposed", "approved", "deprecated"] },
+        "provenance": {
+          "type": "object", "additionalProperties": false, "required": ["source", "recorded_at"],
+          "properties": { "source": { "type": "string", "minLength": 1 }, "source_version": { "type": ["string", "null"] }, "recorded_by": { "type": ["string", "null"] }, "recorded_at": { "type": "string", "format": "date-time" } }
+        },
+        "notes": { "type": ["string", "null"] },
+        "version": { "type": "integer", "minimum": 1 }
+      }
+    },
+    "reference": {
+      "type": "object", "additionalProperties": false, "required": ["entity_type", "entity_id"],
+      "properties": { "entity_type": { "enum": ["framework_requirement", "control", "evidence_type", "policy"] }, "entity_id": { "type": "string", "minLength": 1 } }
+    }
+  }
+}

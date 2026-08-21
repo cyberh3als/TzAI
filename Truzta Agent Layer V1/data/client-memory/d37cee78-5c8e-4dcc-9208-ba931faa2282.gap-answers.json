@@ -1,0 +1,396 @@
+[
+  {
+    "question_id": "gq-0000",
+    "segments": [
+      "Yes, we have a It manager"
+    ],
+    "answered_at": "2026-08-21T11:18:21.893710Z"
+  },
+  {
+    "question_id": "gq-0001",
+    "segments": [
+      "No"
+    ],
+    "answered_at": "2026-08-21T11:19:09.872114Z"
+  },
+  {
+    "question_id": "gq-0002",
+    "segments": [
+      "Yes, annually"
+    ],
+    "answered_at": "2026-08-21T11:19:24.223869Z"
+  },
+  {
+    "question_id": "gq-0003",
+    "segments": [
+      "Yes, we have an incident response plan"
+    ],
+    "answered_at": "2026-08-21T11:19:49.162279Z"
+  },
+  {
+    "question_id": "gq-0004",
+    "segments": [
+      "I don't know"
+    ],
+    "answered_at": "2026-08-21T11:19:59.775000Z"
+  },
+  {
+    "question_id": "gq-0005",
+    "segments": [
+      "No not yet"
+    ],
+    "answered_at": "2026-08-21T11:20:13.991877Z"
+  },
+  {
+    "question_id": "gq-0006",
+    "segments": [
+      "No not yet"
+    ],
+    "answered_at": "2026-08-21T11:22:37.792824Z"
+  },
+  {
+    "question_id": "gq-0007",
+    "segments": [
+      "Yes, we have an IT manager who takes care of security comittee",
+      "Yes",
+      "We meet every 6 months"
+    ],
+    "answered_at": "2026-08-21T11:23:41.911365Z"
+  },
+  {
+    "question_id": "gq-0008",
+    "segments": [
+      "No - this is not in place. The client did not reach this question."
+    ],
+    "answered_at": "2026-08-21T11:30:01.557596Z"
+  },
+  {
+    "question_id": "gq-0009",
+    "segments": [
+      "No - this is not in place. The client did not reach this question."
+    ],
+    "answered_at": "2026-08-21T11:30:01.557596Z"
+  },
+  {
+    "question_id": "gq-0010",
+    "segments": [
+      "No - this is not in place. The client did not reach this question."
+    ],
+    "answered_at": "2026-08-21T11:30:01.557596Z"
+  },
+  {
+    "question_id": "gq-0011",
+    "segments": [
+      "No - this is not in place. The client did not reach this question."
+    ],
+    "answered_at": "2026-08-21T11:30:01.557596Z"
+  },
+  {
+    "question_id": "gq-0012",
+    "segments": [
+      "No - this is not in place. The client did not reach this question."
+    ],
+    "answered_at": "2026-08-21T11:30:01.557596Z"
+  },
+  {
+    "question_id": "gq-0013",
+    "segments": [
+      "No - this is not in place. The client did not reach this question."
+    ],
+    "answered_at": "2026-08-21T11:30:01.557596Z"
+  },
+  {
+    "question_id": "gq-0014",
+    "segments": [
+      "No - this is not in place. The client did not reach this question."
+    ],
+    "answered_at": "2026-08-21T11:30:01.557596Z"
+  },
+  {
+    "question_id": "gq-0015",
+    "segments": [
+      "No - this is not in place. The client did not reach this question."
+    ],
+    "answered_at": "2026-08-21T11:30:01.557596Z"
+  },
+  {
+    "question_id": "gq-0016",
+    "segments": [
+      "No - this is not in place. The client did not reach this question."
+    ],
+    "answered_at": "2026-08-21T11:30:01.557596Z"
+  },
+  {
+    "question_id": "gq-0017",
+    "segments": [
+      "No - this is not in place. The client did not reach this question."
+    ],
+    "answered_at": "2026-08-21T11:30:01.557596Z"
+  },
+  {
+    "question_id": "gq-0018",
+    "segments": [
+      "No - this is not in place. The client did not reach this question."
+    ],
+    "answered_at": "2026-08-21T11:30:01.557596Z"
+  },
+  {
+    "question_id": "gq-0019",
+    "segments": [
+      "No - this is not in place. The client did not reach this question."
+    ],
+    "answered_at": "2026-08-21T11:30:01.557596Z"
+  },
+  {
+    "question_id": "gq-0020",
+    "segments": [
+      "No - this is not in place. The client did not reach this question."
+    ],
+    "answered_at": "2026-08-21T11:30:01.557596Z"
+  },
+  {
+    "question_id": "gq-0021",
+    "segments": [
+      "No - this is not in place. The client did not reach this question."
+    ],
+    "answered_at": "2026-08-21T11:30:01.557596Z"
+  },
+  {
+    "question_id": "gq-0022",
+    "segments": [
+      "No - this is not in place. The client did not reach this question."
+    ],
+    "answered_at": "2026-08-21T11:30:01.557596Z"
+  },
+  {
+    "question_id": "gq-0023",
+    "segments": [
+      "No - this is not in place. The client did not reach this question."
+    ],
+    "answered_at": "2026-08-21T11:30:01.557596Z"
+  },
+  {
+    "question_id": "gq-0024",
+    "segments": [
+      "No - this is not in place. The client did not reach this question."
+    ],
+    "answered_at": "2026-08-21T11:30:01.557596Z"
+  },
+  {
+    "question_id": "gq-0025",
+    "segments": [
+      "No - this is not in place. The client did not reach this question."
+    ],
+    "answered_at": "2026-08-21T11:30:01.557596Z"
+  },
+  {
+    "question_id": "gq-0026",
+    "segments": [
+      "No - this is not in place. The client did not reach this question."
+    ],
+    "answered_at": "2026-08-21T11:30:01.557596Z"
+  },
+  {
+    "question_id": "gq-0027",
+    "segments": [
+      "No - this is not in place. The client did not reach this question."
+    ],
+    "answered_at": "2026-08-21T11:30:01.557596Z"
+  },
+  {
+    "question_id": "gq-0028",
+    "segments": [
+      "No - this is not in place. The client did not reach this question."
+    ],
+    "answered_at": "2026-08-21T11:30:01.557596Z"
+  },
+  {
+    "question_id": "gq-0029",
+    "segments": [
+      "No - this is not in place. The client did not reach this question."
+    ],
+    "answered_at": "2026-08-21T11:30:01.557596Z"
+  },
+  {
+    "question_id": "gq-0030",
+    "segments": [
+      "No - this is not in place. The client did not reach this question."
+    ],
+    "answered_at": "2026-08-21T11:30:01.557596Z"
+  },
+  {
+    "question_id": "gq-0031",
+    "segments": [
+      "No - this is not in place. The client did not reach this question."
+    ],
+    "answered_at": "2026-08-21T11:30:01.557596Z"
+  },
+  {
+    "question_id": "gq-0032",
+    "segments": [
+      "No - this is not in place. The client did not reach this question."
+    ],
+    "answered_at": "2026-08-21T11:30:01.557596Z"
+  },
+  {
+    "question_id": "gq-0033",
+    "segments": [
+      "No - this is not in place. The client did not reach this question."
+    ],
+    "answered_at": "2026-08-21T11:30:01.557596Z"
+  },
+  {
+    "question_id": "gq-0034",
+    "segments": [
+      "No - this is not in place. The client did not reach this question."
+    ],
+    "answered_at": "2026-08-21T11:30:01.557596Z"
+  },
+  {
+    "question_id": "gq-0035",
+    "segments": [
+      "No - this is not in place. The client did not reach this question."
+    ],
+    "answered_at": "2026-08-21T11:30:01.557596Z"
+  },
+  {
+    "question_id": "gq-0036",
+    "segments": [
+      "No - this is not in place. The client did not reach this question."
+    ],
+    "answered_at": "2026-08-21T11:30:01.557596Z"
+  },
+  {
+    "question_id": "gq-0037",
+    "segments": [
+      "No - this is not in place. The client did not reach this question."
+    ],
+    "answered_at": "2026-08-21T11:30:01.557596Z"
+  },
+  {
+    "question_id": "gq-0038",
+    "segments": [
+      "No - this is not in place. The client did not reach this question."
+    ],
+    "answered_at": "2026-08-21T11:30:01.557596Z"
+  },
+  {
+    "question_id": "gq-0039",
+    "segments": [
+      "No - this is not in place. The client did not reach this question."
+    ],
+    "answered_at": "2026-08-21T11:30:01.557596Z"
+  },
+  {
+    "question_id": "gq-0040",
+    "segments": [
+      "No - this is not in place. The client did not reach this question."
+    ],
+    "answered_at": "2026-08-21T11:30:01.557596Z"
+  },
+  {
+    "question_id": "gq-0041",
+    "segments": [
+      "No - this is not in place. The client did not reach this question."
+    ],
+    "answered_at": "2026-08-21T11:30:01.557596Z"
+  },
+  {
+    "question_id": "gq-0042",
+    "segments": [
+      "No - this is not in place. The client did not reach this question."
+    ],
+    "answered_at": "2026-08-21T11:30:01.557596Z"
+  },
+  {
+    "question_id": "gq-0043",
+    "segments": [
+      "No - this is not in place. The client did not reach this question."
+    ],
+    "answered_at": "2026-08-21T11:30:01.557596Z"
+  },
+  {
+    "question_id": "gq-0044",
+    "segments": [
+      "No - this is not in place. The client did not reach this question."
+    ],
+    "answered_at": "2026-08-21T11:30:01.557596Z"
+  },
+  {
+    "question_id": "gq-0045",
+    "segments": [
+      "No - this is not in place. The client did not reach this question."
+    ],
+    "answered_at": "2026-08-21T11:30:01.557596Z"
+  },
+  {
+    "question_id": "gq-0046",
+    "segments": [
+      "No - this is not in place. The client did not reach this question."
+    ],
+    "answered_at": "2026-08-21T11:30:01.557596Z"
+  },
+  {
+    "question_id": "gq-0047",
+    "segments": [
+      "No - this is not in place. The client did not reach this question."
+    ],
+    "answered_at": "2026-08-21T11:30:01.557596Z"
+  },
+  {
+    "question_id": "gq-0048",
+    "segments": [
+      "No - this is not in place. The client did not reach this question."
+    ],
+    "answered_at": "2026-08-21T11:30:01.557596Z"
+  },
+  {
+    "question_id": "gq-0049",
+    "segments": [
+      "No - this is not in place. The client did not reach this question."
+    ],
+    "answered_at": "2026-08-21T11:30:01.557596Z"
+  },
+  {
+    "question_id": "gq-0050",
+    "segments": [
+      "No - this is not in place. The client did not reach this question."
+    ],
+    "answered_at": "2026-08-21T11:30:01.557596Z"
+  },
+  {
+    "question_id": "gq-0051",
+    "segments": [
+      "No - this is not in place. The client did not reach this question."
+    ],
+    "answered_at": "2026-08-21T11:30:01.557596Z"
+  },
+  {
+    "question_id": "gq-0052",
+    "segments": [
+      "No - this is not in place. The client did not reach this question."
+    ],
+    "answered_at": "2026-08-21T11:30:01.557596Z"
+  },
+  {
+    "question_id": "gq-0053",
+    "segments": [
+      "No - this is not in place. The client did not reach this question."
+    ],
+    "answered_at": "2026-08-21T11:30:01.557596Z"
+  },
+  {
+    "question_id": "gq-0054",
+    "segments": [
+      "No - this is not in place. The client did not reach this question."
+    ],
+    "answered_at": "2026-08-21T11:30:01.557596Z"
+  },
+  {
+    "question_id": "gq-0055",
+    "segments": [
+      "No - this is not in place. The client did not reach this question."
+    ],
+    "answered_at": "2026-08-21T11:30:01.557596Z"
+  }
+]
